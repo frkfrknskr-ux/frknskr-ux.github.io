@@ -1,0 +1,2504 @@
+<!DOCTYPE html>
+<html lang="tr"><head><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.tr.q31lGk-SS6A.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8K8XyD40Td94PmQJ4CzaCJL9ewig/cb=gapi.loaded_0?le=scs" async=""></script><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxMzQ1MjI0MDA2NDc2MTA3NTI4MiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzk1MTQzNGQ5NDM2YzI5Y2JfaW5kZXguaHRtbC0zMjYifSwiZXhwIjoxNzk0NjA1OTU3LCJpYXQiOjE3OTQ2MDIzNTcsImFsZyI6IlJTMjU2In0.IEtEsvv_9ogvfYEZtFBfIy1A566spmH4ln5NlQ-pocHnhZ_X_5J1qG3_7aYPZIetvmtGBY_fXaERdzrOKsvzCtDlBbTB03jYk0Zt9VpkKVRIc6B-9BmrTvwsVwTGcpiXwiRqz9CSgrMmVTek0uqZtYQmdmlxkp9BlaywbMwH7M7EypFem9mYjy7jYvG2phGmtzHOWCPss13TulnA2s-D9alWkuDkHwsPo3sLulShyJifvhWGh_-UMja1-aPdvv8u7Vee822SHESMUjd0pC0cuUKjHX1Gv-i1xSd3QTm9jP_lyyOFA8KDSAhKqpUFF75qH5WMVrAnEiybptFVaTO3fQ","c_951434d9436c29cb_index.html-326")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var k=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function m(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var q=m(this);
+function r(a,b){if(b)a:{var d=q;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&k(d,a,{configurable:!0,writable:!0,value:b})}}function t(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function u(a){return t(a())}
+r("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});r("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function v(a,b){var d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);var c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var aa=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let y=null;function z(a={}){return y?y:a.u?y=a.u:y=w(window.getComputedStyle(document.documentElement))}function A(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function B(a,b={}){var d;if(!(d=b.width)){d=A(a,"border-left-width");var c=A(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=A(a,"border-top-width"),c=A(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function C(a){return new Promise((b,d)=>{var c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function ba(a){return u(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function ca(a,b,d){return u(function*(){var c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return ba(c)})}
+var D=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||D(a,b)};function da(a,b){return z(b).map(d=>{var c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function E(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=aa();try{b.className=`${b.className} ${f}`}catch(h){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=da(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function F(a){return a.search(/^(data:)/)!==-1}function G(a,b,d){return u(function*(){var c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);var e=yield c.blob();return new Promise((f,g)=>{var h=new FileReader;h.onerror=g;h.onloadend=()=>{try{f(d({v:c,result:h.result}))}catch(l){g(l)}};h.readAsDataURL(e)})})}const H={};function ea(a,b,d){var c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function I(a,b,d){return u(function*(){var c=ea(a,b,d.F);if(H[c]!=null)return H[c];d.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield G(a,d.l,({v:g,result:h})=>{b||(b=g.headers.get("Content-Type")||"");return h.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=d.o||""}return H[c]=e})};const J={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function K(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function fa(a){return u(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):C(b)})}function ha(a,b){return u(function*(){if(a.currentSrc){var d=document.createElement("canvas");let c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return C(d)}d=a.poster;d=yield I(d,J[K(d).toLowerCase()]||"",b);return C(d)})}
+function ia(a,b){return u(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield L(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ja(a,b){return u(function*(){return D(a,HTMLCanvasElement)?fa(a):D(a,HTMLVideoElement)?ha(a,b):D(a,HTMLIFrameElement)?ia(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function ka(a,b,d){return u(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(D(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||D(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>L(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function la(a,b,d){var c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):z(d).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);D(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ma(a,b){D(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function na(a,b){return u(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield L(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function L(a,b,d){return u(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ja(c,b)).then(c=>ka(a,c,b)).then(c=>{D(c,Element)&&(la(a,c,b),E(a,c,":before",b),E(a,c,":after",b),D(a,HTMLTextAreaElement)&&(c.textContent=a.value),D(a,HTMLInputElement)&&c.setAttribute("value",a.value),ma(a,c));return c}).then(c=>na(c,b)):null})};const M=/url\((['"]?)([^'"]+?)\1\)/g,oa=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,pa=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function qa(a){var b=[];a.replace(M,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!F(d))}
+function ra(a,b,d,c){return u(function*(){try{let e=d?(new URL(b,d||void 0)).toString():b,f;f=yield I(e,J[K(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function sa(a,{K:b}){return b?a.replace(pa,d=>{for(;;){let [c,,e]=oa.exec(d)||[];if(!e)return"";if(e===b)return`src: ${c};`}}):a}
+function N(a,b,d){return u(function*(){if(a.search(M)===-1)return a;var c=sa(a,d);return qa(c).reduce((e,f)=>e.then(g=>ra(g,f,b,d)),Promise.resolve(c))})};function O(a,b,d){return u(function*(){var c,e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield N(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function ta(a,b){return u(function*(){(yield O("background",a,b))||(yield O("background-image",a,b));(yield O("mask",a,b))||(yield O("-webkit-mask",a,b))||(yield O("mask-image",a,b))||(yield O("-webkit-mask-image",a,b))})}
+function ua(a,b){return u(function*(){var d=D(a,HTMLImageElement);if(d&&!F(a.src)||D(a,SVGImageElement)&&!F(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield I(c,J[K(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...h)=>{try{f(b.h(...h))}catch(l){g(l)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function va(a,b){return u(function*(){var d=w(a.childNodes).map(c=>P(c,b));yield Promise.all(d).then(()=>a)})}function P(a,b){return u(function*(){D(a,Element)&&(yield ta(a,b),yield ua(a,b),yield va(a,b))})};const Q={};function R(a){return u(function*(){var b=Q[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return Q[a]=b})}function S(a,b){return u(function*(){var d=a.cssText,c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>u(function*(){var g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return G(g,b.l,({result:h})=>{d=d.replace(f,`url(${h})`);return[f,h]})}));return Promise.all(e).then(()=>d)})}
+function T(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function wa(a,b){return u(function*(){var d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let h=g+1;f=R(f.href).then(l=>S(l,b)).then(l=>T(l).forEach(p=>{try{e.insertRule(p,p.startsWith("@import")?h+=1:e.cssRules.length)}catch(x){}})).catch(()=>{});c.push(f)}})}catch(f){let g=a.find(h=>h.href==null)||document.styleSheets[0];e.href!=null&&c.push(R(e.href).then(h=>S(h,b)).then(h=>T(h).forEach(l=>{g.insertRule(l,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function xa(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(M)!==-1)}function ya(a,b){return u(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=yield wa(w(a.ownerDocument.styleSheets),b);return xa(d)})}
+function za(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var d=new Set;b(a);return d}function Aa(a,b){return u(function*(){var d=yield ya(a,b),c=za(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>N(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function Ba(a,b){return u(function*(){var d=b.m!=null?b.m:b.A?null:yield Aa(a,b);if(d){let c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function Ca(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield L(a,b,!0);yield Ba(e,b);yield P(e,b);v(e,b);return yield ca(e,d,c)})}
+function Da(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield Ca(a,b);e=yield C(e);var f=document.createElement("canvas"),g=f.getContext("2d"),h=b.I||window.devicePixelRatio||1,l=b.j||d,p=b.i||c;f.width=l*h;f.height=p*h;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${l}`;f.style.height=`${p}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Ea(a,b={}){return u(function*(){return(yield Da(a,b)).toDataURL()})};const Fa=["gemini.google.com","corp.google.com","proxy.googlers.com"];function V(a){a=Number(a.replace(/px$/,""));return Number.isFinite(a)?a:0}function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var d=document.createElement("canvas");d.width=a;d.height=b;return d.toDataURL("image/png")}const Y=X(1,1);
+function Z(a,b){return u(function*(){var d=Math.max(b?b.width:a.offsetWidth,1),c=Math.max(b?b.height:a.offsetHeight,1),e=HTMLCanvasElement.prototype.toDataURL;b&&(HTMLCanvasElement.prototype.toDataURL=function(f,g){var h;if(h=this.isConnected&&a.contains(this)){{let n=this.getBoundingClientRect();if(n.width===0||n.height===0)h=!1;else if(window.getComputedStyle(this).position==="fixed")h=n.bottom>0&&n.top<b.height&&n.right>0&&n.left<b.width;else{h=a.getBoundingClientRect();var l=n.top-h.top,p=n.left-
+h.left,x=n.right-h.left;h=n.bottom-h.top>b.scrollTop&&l<b.scrollTop+b.height&&x>b.scrollLeft&&p<b.scrollLeft+b.width}}h=!h}return h?"data:,":e.call(this,f,g)});try{let f=window.getComputedStyle(a),g=b?`${V(f.marginTop)-b.scrollTop}px`:void 0,h=b?`${V(f.marginLeft)-b.scrollLeft}px`:void 0,l=`${Math.max(a.offsetWidth,d)}px`,p,x=`${Math.max(a.offsetHeight,c+((p=b==null?void 0:b.scrollTop)!=null?p:0))}px`;return yield Ea(a,Object.assign({},{width:d,height:c,j:d,i:c},b?{style:{width:l,height:x,marginTop:g,
+marginLeft:h,marginBlockStart:g,marginInlineStart:h}}:{},{A:!0,filter:n=>{if(n.tagName==="IMG"){let U=n.getAttribute("src");if(!U||U.trim()===""||n.style.display==="none")return!1}return!0},o:Y,h:()=>Y}))}catch(f){return X(d,c)}finally{HTMLCanvasElement.prototype.toDataURL=e}})}
+function Ga(){return u(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ha(a){return u(function*(){var b={width:window.innerWidth||document.documentElement.clientWidth||document.body.offsetWidth,height:window.innerHeight||document.documentElement.clientHeight||document.body.offsetHeight,scrollTop:window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0,scrollLeft:window.scrollX||document.documentElement.scrollLeft||document.body.scrollLeft||0},d=document.body;if(W()){let c=yield Ga();d=c;document.body.appendChild(c)}b=yield Z(d,b);W()&&
+document.body.removeChild(d);window.parent.postMessage({type:"SEND_SCREENSHOT",image:b,topOffset:0},a.origin)})}function Ia(a){return u(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}window.addEventListener("message",a=>u(function*(){if(Fa.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ha(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ia(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.j=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.i="";var l=0,t=null,r=null,q=[],F=new TextEncoder,G=new TextDecoder;
+c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*16|0;return(f===
+"x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;(g=t)==null||g.postMessage(a)}};
+Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function() {
+  function normalizeSlug(str) {
+    try {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^p{L}p{N}s_-]/gu, '')
+        .replace(/s+/g, '-');
+    } catch (e) {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9s_-]/g, '')
+        .replace(/s+/g, '-');
+    }
+  }
+
+  function findTargetElement(hash) {
+    if (!hash || hash === '#') {
+      return null;
+    }
+    const rawId = hash.startsWith('#') ? hash.slice(1) : hash;
+    let decodedId = rawId;
+    try {
+      decodedId = decodeURIComponent(rawId);
+    } catch (e) {
+      // Ignore URI malformed errors.
+    }
+
+    // 1. Direct ID match (raw and decoded).
+    let target = document.getElementById(rawId) || document.getElementById(decodedId);
+    if (target) {
+      return target;
+    }
+
+    // 2. Name attribute match (<a name="...">).
+    try {
+      if (typeof CSS !== 'undefined' && CSS.escape) {
+        target =
+          document.querySelector('[name="' + CSS.escape(rawId) + '"]') ||
+          document.querySelector('[name="' + CSS.escape(decodedId) + '"]');
+      } else {
+        const namedElements = document.getElementsByName(rawId);
+        if (namedElements && namedElements.length > 0) {
+          return namedElements[0];
+        }
+      }
+    } catch (e) {
+      // Ignore querySelector syntax errors.
+    }
+    if (target) {
+      return target;
+    }
+
+    // 3. Match heading text by slug (for Markdown TOCs where headings lack explicit IDs).
+    const targetSlug = normalizeSlug(decodedId);
+    if (targetSlug) {
+      for (const heading of document.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+        if (normalizeSlug(heading.textContent || '') === targetSlug) {
+          return heading;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    const anchor = target && typeof target.closest === 'function' ? target.closest('a') : null;
+    if (!anchor) {
+      return;
+    }
+
+    const href = anchor.getAttribute('href');
+    if (
+      !href ||
+      href.trim().toLowerCase().startsWith('javascript:') ||
+      anchor.hasAttribute('download')
+    ) {
+      return;
+    }
+
+    // Check if the link is an in-page hash / anchor link.
+    if (href.startsWith('#')) {
+      event.preventDefault();
+      const targetElement = findTargetElement(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+      return;
+    }
+
+    // Check if the URL has the same origin/pathname but with a hash.
+    try {
+      const url = new URL(anchor.href, window.location.href);
+      if (
+        url.hash &&
+        url.origin === window.location.origin &&
+        url.pathname === window.location.pathname
+      ) {
+        event.preventDefault();
+        const targetElement = findTargetElement(url.hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+        return;
+      }
+    } catch (e) {
+      // Fall through if URL parsing fails.
+    }
+
+    // For all external or full navigation links, prevent iframe-level navigation
+    // (which breaks in AGSA WebView or sandboxed iframes) and ensure they open
+    // safely in a new tab/window.
+    if (anchor.target !== '_blank') {
+      event.preventDefault();
+      window.open(anchor.href, '_blank', 'noopener,noreferrer');
+    }
+  }, {capture: true});
+})();</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Hasat Tarım">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#064e3b">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23059669'/%3E%3Cstop offset='100%25' stop-color='%23064e3b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='115' fill='url(%23g)'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23fbbf24' font-family='Arial,sans-serif' font-weight='900' font-size='270'%3EH%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23059669'/%3E%3Cstop offset='100%25' stop-color='%23064e3b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='115' fill='url(%23g)'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23fbbf24' font-family='Arial,sans-serif' font-weight='900' font-size='270'%3EH%3C/text%3E%3C/svg%3E">
+    <title>HASAT TARIM - Stok ve Müşteri Cari Takip Sistemi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #022c22;
+            background-image: 
+                radial-gradient(circle at top right, rgba(245, 158, 11, 0.14), transparent 45%),
+                linear-gradient(to bottom, rgba(2, 44, 34, 0.86), rgba(6, 78, 59, 0.93)),
+                url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .glass-dark {
+            background: rgba(2, 44, 34, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        @media print {
+            body * { visibility: hidden; }
+            #printable-invoice, #printable-invoice * { visibility: visible; }
+            #printable-invoice { 
+                position: absolute; 
+                left: 0; 
+                top: 0; 
+                width: 100%; 
+                box-shadow: none !important; 
+                border: none !important; 
+                background: white !important; 
+            }
+            .no-print { display: none !important; }
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.bottom-5{bottom:1.25rem}.right-4{right:1rem}.right-5{right:1.25rem}.top-0{top:0px}.top-3\.5{top:0.875rem}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-0\.5{margin-bottom:0.125rem}.mb-1{margin-bottom:0.25rem}.mb-1\.5{margin-bottom:0.375rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:0.5rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-1\.5{margin-top:0.375rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-20{height:5rem}.h-24{height:6rem}.h-8{height:2rem}.max-h-44{max-height:11rem}.max-h-\[600px\]{max-height:600px}.max-h-\[650px\]{max-height:650px}.max-h-\[90vh\]{max-height:90vh}.max-h-\[95vh\]{max-height:95vh}.min-h-screen{min-height:100vh}.w-1\/2{width:50%}.w-20{width:5rem}.w-24{width:6rem}.w-8{width:2rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.border-collapse{border-collapse:collapse}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-2\.5{gap:0.625rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.375rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-2\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.625rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-3\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.875rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.875rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-slate-100 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(241 245 249 / var(--tw-divide-opacity, 1))}.divide-slate-200 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(226 232 240 / var(--tw-divide-opacity, 1))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-tl-lg{border-top-left-radius:0.5rem}.rounded-tr-lg{border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77 / var(--tw-border-opacity, 1))}.border-amber-300\/40{border-color:rgb(252 211 77 / 0.4)}.border-amber-300\/50{border-color:rgb(252 211 77 / 0.5)}.border-amber-400\/20{border-color:rgb(251 191 36 / 0.2)}.border-amber-400\/30{border-color:rgb(251 191 36 / 0.3)}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-emerald-200\/80{border-color:rgb(167 243 208 / 0.8)}.border-emerald-300{--tw-border-opacity:1;border-color:rgb(110 231 183 / var(--tw-border-opacity, 1))}.border-emerald-400{--tw-border-opacity:1;border-color:rgb(52 211 153 / var(--tw-border-opacity, 1))}.border-emerald-400\/20{border-color:rgb(52 211 153 / 0.2)}.border-emerald-400\/30{border-color:rgb(52 211 153 / 0.3)}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87 / var(--tw-border-opacity, 1))}.border-rose-400\/30{border-color:rgb(251 113 133 / 0.3)}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/15{border-color:rgb(255 255 255 / 0.15)}.border-white\/60{border-color:rgb(255 255 255 / 0.6)}.bg-amber-400\/20{background-color:rgb(251 191 36 / 0.2)}.bg-amber-50\/90{background-color:rgb(255 251 235 / 0.9)}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-50\/60{background-color:rgb(236 253 245 / 0.6)}.bg-emerald-50\/70{background-color:rgb(236 253 245 / 0.7)}.bg-emerald-50\/90{background-color:rgb(236 253 245 / 0.9)}.bg-emerald-700{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.bg-emerald-800{--tw-bg-opacity:1;background-color:rgb(6 95 70 / var(--tw-bg-opacity, 1))}.bg-emerald-900{--tw-bg-opacity:1;background-color:rgb(6 78 59 / var(--tw-bg-opacity, 1))}.bg-emerald-950{--tw-bg-opacity:1;background-color:rgb(2 44 34 / var(--tw-bg-opacity, 1))}.bg-emerald-950\/70{background-color:rgb(2 44 34 / 0.7)}.bg-emerald-950\/80{background-color:rgb(2 44 34 / 0.8)}.bg-emerald-950\/90{background-color:rgb(2 44 34 / 0.9)}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136 / var(--tw-bg-opacity, 1))}.bg-teal-700{--tw-bg-opacity:1;background-color:rgb(15 118 110 / var(--tw-bg-opacity, 1))}.bg-teal-800{--tw-bg-opacity:1;background-color:rgb(17 94 89 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/10{background-color:rgb(255 255 255 / 0.1)}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-400{--tw-gradient-from:#fbbf24 var(--tw-gradient-from-position);--tw-gradient-to:rgb(251 191 36 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-500{--tw-gradient-from:#10b981 var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 185 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-950{--tw-gradient-from:#022c22 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 44 34 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-emerald-600{--tw-gradient-to:rgb(5 150 105 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #059669 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-emerald-900{--tw-gradient-to:rgb(6 78 59 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #064e3b var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-600{--tw-gradient-to:#d97706 var(--tw-gradient-to-position)}.to-teal-600{--tw-gradient-to:#0d9488 var(--tw-gradient-to-position)}.to-teal-800{--tw-gradient-to:#115e59 var(--tw-gradient-to-position)}.to-teal-950{--tw-gradient-to:#042f2e var(--tw-gradient-to-position)}.p-1{padding:0.25rem}.p-1\.5{padding:0.375rem}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-1{padding-bottom:0.25rem}.pb-2\.5{padding-bottom:0.625rem}.pb-3{padding-bottom:0.75rem}.pb-3\.5{padding-bottom:0.875rem}.pb-4{padding-bottom:1rem}.pl-4{padding-left:1rem}.pr-1{padding-right:0.25rem}.pr-10{padding-right:2.5rem}.pt-1{padding-top:0.25rem}.pt-1\.5{padding-top:0.375rem}.pt-2{padding-top:0.5rem}.pt-4{padding-top:1rem}.pt-5{padding-top:1.25rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-200{--tw-text-opacity:1;color:rgb(253 230 138 / var(--tw-text-opacity, 1))}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.text-amber-950{--tw-text-opacity:1;color:rgb(69 26 3 / var(--tw-text-opacity, 1))}.text-emerald-100\/80{color:rgb(209 250 229 / 0.8)}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208 / var(--tw-text-opacity, 1))}.text-emerald-200\/70{color:rgb(167 243 208 / 0.7)}.text-emerald-200\/80{color:rgb(167 243 208 / 0.8)}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-emerald-900{--tw-text-opacity:1;color:rgb(6 78 59 / var(--tw-text-opacity, 1))}.text-emerald-950{--tw-text-opacity:1;color:rgb(2 44 34 / var(--tw-text-opacity, 1))}.text-rose-300{--tw-text-opacity:1;color:rgb(253 164 175 / var(--tw-text-opacity, 1))}.text-rose-400{--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-amber-950\/40{--tw-shadow-color:rgb(69 26 3 / 0.4);--tw-shadow:var(--tw-shadow-colored)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-700{transition-duration:700ms}.selection\:bg-emerald-600 *::selection{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-emerald-600::selection{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-amber-400:hover{--tw-bg-opacity:1;background-color:rgb(251 191 36 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-600:hover{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-900:hover{--tw-bg-opacity:1;background-color:rgb(6 78 59 / var(--tw-bg-opacity, 1))}.hover\:bg-rose-500:hover{--tw-bg-opacity:1;background-color:rgb(244 63 94 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.hover\:bg-teal-500:hover{--tw-bg-opacity:1;background-color:rgb(20 184 166 / var(--tw-bg-opacity, 1))}.hover\:bg-teal-600:hover{--tw-bg-opacity:1;background-color:rgb(13 148 136 / var(--tw-bg-opacity, 1))}.hover\:bg-teal-700:hover{--tw-bg-opacity:1;background-color:rgb(15 118 110 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:bg-white\/20:hover{background-color:rgb(255 255 255 / 0.2)}.hover\:from-amber-400:hover{--tw-gradient-from:#fbbf24 var(--tw-gradient-from-position);--tw-gradient-to:rgb(251 191 36 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\:to-amber-500:hover{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.hover\:text-rose-600:hover{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-emerald-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(5 150 105 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:col-span-2{grid-column:span 2 / span 2}.sm\:inline{display:inline}.sm\:w-48{width:12rem}.sm\:w-52{width:13rem}.sm\:w-64{width:16rem}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:p-4{padding:1rem}.sm\:p-6{padding:1.5rem}.sm\:px-3{padding-left:0.75rem;padding-right:0.75rem}.sm\:text-right{text-align:right}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}.sm\:text-xs{font-size:0.75rem;line-height:1rem}}@media (min-width: 1024px){.lg\:col-span-4{grid-column:span 4 / span 4}.lg\:col-span-5{grid-column:span 5 / span 5}.lg\:col-span-7{grid-column:span 7 / span 7}.lg\:col-span-8{grid-column:span 8 / span 8}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}}</style><script src="https://apis.google.com/js/api.js?onload=__iframefcb236960" type="text/javascript" charset="UTF-8" gapi_processed="true"></script></head>
+<body class="text-slate-800 min-h-screen flex flex-col selection:bg-emerald-600 selection:text-white">
+
+    <!-- ÖZEL AÇILIŞ (SPLASH) EKRANI -->
+    
+
+    <!-- Üst Kurumsal Başlık -->
+    <header class="bg-emerald-950/90 backdrop-blur-lg text-white shadow-2xl border-b border-amber-400/20 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 py-3.5 flex flex-wrap justify-between items-center gap-3">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-br from-emerald-500 via-emerald-600 to-teal-800 px-3.5 py-2 rounded-2xl font-black tracking-wider text-white text-base sm:text-lg shadow-lg border border-amber-300/40 flex items-center gap-2">
+                    <i class="fa-solid fa-wheat-awn text-amber-300"></i>
+                    <span>HASAT TARIM</span>
+                </div>
+                <div>
+                    <h1 class="text-xs sm:text-sm font-extrabold leading-tight text-white tracking-wide">Stok, Müşteri Cari &amp; Fatura Takibi</h1>
+                    <p class="text-[11px] text-amber-300 font-semibold">10 Gün Vadeli Satış &amp; Gecikme Farkı (+40 ₺)</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2">
+                <button type="button" onclick="openMobileAppModal()" class="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 transition text-xs flex items-center space-x-1.5 text-amber-200 font-bold">
+                    <i class="fa-solid fa-mobile-screen-button text-amber-400"></i>
+                    <span class="hidden sm:inline">Telefona Kur</span>
+                </button>
+                <button type="button" onclick="openInvoiceModal()" class="p-2.5 px-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 transition text-xs sm:text-sm flex items-center space-x-2 text-emerald-950 font-extrabold shadow-lg shadow-amber-950/40">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <span>Satış Sepeti (<span id="header-cart-count">0</span>)</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 4 Ana Sekme Navigasyonu -->
+    <div class="max-w-7xl w-full mx-auto px-4 pt-5">
+        <div class="glass-dark p-1.5 rounded-2xl border border-emerald-400/20 grid grid-cols-2 sm:grid-cols-4 gap-1.5 max-w-4xl mx-auto shadow-2xl">
+            <button type="button" onclick="switchMainView('calculator')" id="nav-btn-calculator" class="py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-extrabold transition-all flex items-center justify-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-lg border border-emerald-400/30">
+                <i class="fa-solid fa-calculator text-amber-300"></i> <span>Maliyet &amp; Kâr</span>
+            </button>
+            <button type="button" onclick="switchMainView('stock')" id="nav-btn-stock" class="py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-bold transition-all flex items-center justify-center gap-1.5 text-emerald-100/80 hover:text-white hover:bg-white/10">
+                <i class="fa-solid fa-boxes-stacked text-amber-400"></i> <span>Stok &amp; Giriş (<span id="nav-stock-count">0</span>)</span>
+            </button>
+            <button type="button" onclick="switchMainView('customers')" id="nav-btn-customers" class="py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-bold transition-all flex items-center justify-center gap-1.5 text-emerald-100/80 hover:text-white hover:bg-white/10">
+                <i class="fa-solid fa-users text-amber-400"></i> <span>Müşteri Cari (<span id="nav-customers-count">0</span>)</span>
+            </button>
+            <button type="button" onclick="switchMainView('records')" id="nav-btn-records" class="py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-bold transition-all flex items-center justify-center gap-1.5 text-emerald-100/80 hover:text-white hover:bg-white/10">
+                <i class="fa-solid fa-folder-open text-amber-400"></i> <span>Faturalar (<span id="nav-records-count">0</span>)</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- EKRAN 1: MALİYET, KÂR VE DOĞRUDAN HIZLI SATIŞ -->
+    <main id="view-calculator" class="max-w-7xl w-full mx-auto px-4 py-5 flex-1 grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div class="lg:col-span-7 space-y-5">
+            <div class="glass-panel p-5 sm:p-6 rounded-3xl shadow-2xl border border-white/60 space-y-5">
+                <div class="flex justify-between items-center border-b border-slate-200 pb-3">
+                    <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center"><i class="fa-solid fa-coins"></i></span>
+                        Maliyet, Vade &amp; Kâr Hesaplama
+                    </h2>
+                    <button type="button" onclick="resetCostProfitForm()" class="text-xs font-bold text-slate-400 hover:text-rose-600 transition flex items-center gap-1">
+                        <i class="fa-solid fa-rotate-right"></i> Temizle
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-emerald-50/60 p-3.5 rounded-2xl border border-emerald-200/80">
+                    <div class="sm:col-span-2">
+                        <label class="block text-xs font-bold text-emerald-950 mb-1">Ürün / Yem / Gübre Adı</label>
+                        <input type="text" id="cp-product-name" oninput="calculateCostProfit()" placeholder="Örn: 20-20-0 Gübre 50 Kg" class="w-full px-3.5 py-2.5 rounded-xl border border-emerald-300 bg-white text-sm font-semibold outline-none focus:ring-2 focus:ring-emerald-600">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-emerald-950 mb-1">Adet / Çuval</label>
+                        <input type="number" id="cp-quantity" value="1" min="1" oninput="calculateCostProfit()" class="w-full px-3.5 py-2.5 rounded-xl border border-emerald-300 bg-white text-sm font-black text-emerald-800 outline-none">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Fabrika Liste Fiyatı (Birim ₺)</label>
+                    <div class="relative">
+                        <input type="number" id="cp-price" oninput="calculateCostProfit()" placeholder="0.00" step="0.01" class="w-full pl-4 pr-10 py-3 rounded-xl border border-slate-300 bg-white text-lg font-black text-slate-900 outline-none focus:ring-2 focus:ring-emerald-600">
+                        <span class="absolute right-4 top-3.5 text-slate-400 font-bold">₺</span>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1.5">5 Kademeli İskonto Oranları (%)</label>
+                    <div class="grid grid-cols-5 gap-2">
+                        <div><span class="text-[10px] text-slate-500 block mb-0.5 text-center font-bold">1.İsk</span><input type="number" id="cp-disc-1" oninput="calculateCostProfit()" placeholder="0" step="0.01" class="w-full py-2.5 rounded-xl border border-slate-300 bg-white text-sm text-center font-bold outline-none"></div>
+                        <div><span class="text-[10px] text-slate-500 block mb-0.5 text-center font-bold">2.İsk</span><input type="number" id="cp-disc-2" oninput="calculateCostProfit()" placeholder="0" step="0.01" class="w-full py-2.5 rounded-xl border border-slate-300 bg-white text-sm text-center font-bold outline-none"></div>
+                        <div><span class="text-[10px] text-slate-500 block mb-0.5 text-center font-bold">3.İsk</span><input type="number" id="cp-disc-3" oninput="calculateCostProfit()" placeholder="0" step="0.01" class="w-full py-2.5 rounded-xl border border-slate-300 bg-white text-sm text-center font-bold outline-none"></div>
+                        <div><span class="text-[10px] text-slate-500 block mb-0.5 text-center font-bold">4.İsk</span><input type="number" id="cp-disc-4" oninput="calculateCostProfit()" placeholder="0" step="0.01" class="w-full py-2.5 rounded-xl border border-slate-300 bg-white text-sm text-center font-bold outline-none"></div>
+                        <div><span class="text-[10px] text-slate-500 block mb-0.5 text-center font-bold">5.İsk</span><input type="number" id="cp-disc-5" oninput="calculateCostProfit()" placeholder="0" step="0.01" class="w-full py-2.5 rounded-xl border border-slate-300 bg-white text-sm text-center font-bold outline-none"></div>
+                    </div>
+                </div>
+
+                <div class="bg-amber-50/90 border border-amber-200 p-4 rounded-2xl space-y-3">
+                    <div class="flex justify-between items-center">
+                        <label class="text-xs font-extrabold text-amber-950 flex items-center gap-1.5"><i class="fa-regular fa-calendar-check text-amber-600"></i> Fabrika Vadesi</label>
+                        <select id="cp-vade-type" onchange="toggleVadeMode()" class="text-[11px] bg-white border border-amber-300 rounded-lg px-2 py-1 font-bold text-amber-900 outline-none">
+                            <option value="fixed">Sabit TL / Ay (40 ₺)</option>
+                            <option value="percent">Yüzde (%) / Ay</option>
+                        </select>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-[11px] font-bold text-amber-900 mb-1">Vade Süresi</label>
+                            <select id="cp-vade-months" onchange="calculateCostProfit()" class="w-full px-3 py-2.5 rounded-xl border border-amber-300 bg-white text-sm font-bold text-slate-800 outline-none">
+                                <option value="0">Peşin (0 Ay)</option>
+                                <option value="1">1 Ay Vade</option>
+                                <option value="2">2 Ay Vade</option>
+                                <option value="3">3 Ay Vade</option>
+                                <option value="4">4 Ay Vade</option>
+                                <option value="5">5 Ay Vade</option>
+                                <option value="6">6 Ay Vade</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label id="vade-rate-label" class="block text-[11px] font-bold text-amber-900 mb-1">Aylık Vade Farkı (₺ / Ay)</label>
+                            <input type="number" id="cp-vade-rate" value="40" oninput="calculateCostProfit()" step="0.01" class="w-full px-3 py-2.5 rounded-xl border border-amber-300 bg-white text-sm font-black text-amber-900 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Nakliye Gideri (Birim ₺)</label>
+                        <input type="number" id="cp-shipping" oninput="calculateCostProfit()" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-bold outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Diğer Giderler (Birim ₺)</label>
+                        <input type="number" id="cp-other" oninput="calculateCostProfit()" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-bold outline-none">
+                    </div>
+                </div>
+
+                <div class="bg-emerald-50/90 border border-emerald-200 p-4 rounded-2xl space-y-3">
+                    <label class="block text-xs font-extrabold text-emerald-950 mb-1">Müşteriye Satış Fiyatı &amp; Vadesi</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-[10px] font-bold text-emerald-900 mb-1">Peşin Birim Satış (₺)</label>
+                            <input type="number" id="cp-sell-price" oninput="calculateCostProfit()" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-emerald-400 bg-white text-sm font-black text-emerald-950 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-emerald-900 mb-1">Müşteri Satış Vadesi</label>
+                            <select id="cp-sell-vade-months" onchange="calculateCostProfit()" class="w-full px-3 py-2.5 rounded-xl border border-emerald-400 bg-white text-xs font-bold text-emerald-950 outline-none">
+                                <option value="0">Peşin / Nakit Satış (0 ₺ Fark)</option>
+                                <option value="1">1 Ay Vadeli (+40 ₺)</option>
+                                <option value="2">2 Ay Vadeli (+80 ₺)</option>
+                                <option value="3">3 Ay Vadeli (+120 ₺)</option>
+                                <option value="4">4 Ay Vadeli (+160 ₺)</option>
+                                <option value="5">5 Ay Vadeli (+200 ₺)</option>
+                                <option value="6">6 Ay Vadeli (+240 ₺)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="text-[11px] font-extrabold text-emerald-900 flex justify-between pt-1 border-t border-emerald-200">
+                        <span>Vadeli Satış Birim Fiyatı:</span>
+                        <span id="cp-vade-sell-preview" class="text-emerald-700">0,00 ₺ (Peşin)</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    <button type="button" onclick="saveToInvoiceList()" class="py-3 bg-emerald-800 hover:bg-emerald-700 text-white font-extrabold rounded-xl shadow transition text-xs flex items-center justify-center gap-1.5">
+                        <i class="fa-solid fa-cart-plus text-amber-300"></i> Satış Sepetine Ekle
+                    </button>
+                    <button type="button" onclick="addCalculatedToStock()" class="py-3 bg-teal-800 hover:bg-teal-700 text-white font-extrabold rounded-xl shadow transition text-xs flex items-center justify-center gap-1.5">
+                        <i class="fa-solid fa-boxes-stacked text-amber-300"></i> Stoğa Ekle (Alış)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-5 space-y-5">
+            <div class="glass-dark text-white p-6 rounded-3xl shadow-2xl border border-white/15 space-y-4">
+                <div class="flex justify-between items-center border-b border-white/10 pb-2.5">
+                    <span class="text-xs uppercase tracking-wider text-emerald-200/80 font-bold">Birim Net Maliyet</span>
+                    <span class="text-xs bg-amber-400/20 text-amber-300 border border-amber-400/30 px-2.5 py-0.5 rounded-full font-bold" id="res-badge">Peşin Maliyet</span>
+                </div>
+                <div class="flex justify-between items-baseline">
+                    <span class="text-3xl sm:text-4xl font-black text-white tracking-tight" id="res-main-value">0,00 ₺</span>
+                    <span class="text-xs text-emerald-200/70 font-medium" id="res-sub-info">1 Adet Maliyet: 0,00 ₺</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3 pt-2 border-t border-white/10">
+                    <div class="bg-white/5 border border-white/10 p-3.5 rounded-2xl">
+                        <span class="text-[11px] text-emerald-200/80 block font-medium">Birim Net Kâr</span>
+                        <span class="text-lg font-extrabold text-emerald-400" id="res-unit-profit">0,00 ₺</span>
+                        <span class="text-[10px] text-slate-300 block mt-0.5" id="res-profit-margin">Kâr Marjı: %0.00</span>
+                    </div>
+                    <div class="bg-emerald-950/70 border border-amber-400/30 p-3.5 rounded-2xl">
+                        <span class="text-[11px] text-amber-300 block font-semibold">Toplam Kâr (<span id="res-qty-label">1</span> Adet)</span>
+                        <span class="text-xl font-black text-amber-300" id="res-total-profit">0,00 ₺</span>
+                        <span class="text-[10px] text-emerald-200/80 block mt-0.5" id="res-total-revenue">Ciro: 0,00 ₺</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doğrudan Hızlı Satış Kartı (Müşteri Adı Yazıp Tek Tıkla Satış) -->
+            <div class="glass-panel p-5 rounded-3xl shadow-xl border border-white/60 space-y-3">
+                <h3 class="font-extrabold text-xs text-emerald-950 uppercase tracking-wider flex items-center gap-2">
+                    <i class="fa-solid fa-bolt text-amber-600"></i> Hızlı Satış &amp; Müşteriye İşle
+                </h3>
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-700 mb-1">Müşteri Adı / Ünvanı (Otomatik Cari Açılır):</label>
+                    <input type="text" id="direct-customer-name" placeholder="Örn: Mehmet Çiftçi" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs bg-white font-bold outline-none focus:ring-2 focus:ring-emerald-600">
+                </div>
+                <button type="button" onclick="directQuickSale()" class="w-full py-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 text-emerald-950 font-extrabold rounded-xl shadow transition text-xs flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Sepettekileri Bu Müşteriye Sat &amp; Bakiyeye İşle
+                </button>
+            </div>
+
+            <div class="glass-panel p-5 rounded-3xl shadow-xl border border-white/60">
+                <h3 class="font-extrabold text-xs text-emerald-950 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-list-ol text-emerald-600"></i> Maliyet Dökümü
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="border-b border-slate-200 text-slate-400">
+                                <th class="py-1.5 font-bold">Adım</th>
+                                <th class="py-1.5 font-bold text-right">Etki</th>
+                                <th class="py-1.5 font-bold text-right">Tutar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="breakdown-body" class="divide-y divide-slate-100 text-slate-700"><tr><td colspan="3" class="py-4 text-center text-slate-400 italic">Hesaplama için liste fiyatı giriniz...</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="glass-panel p-5 rounded-3xl shadow-xl border border-white/60 space-y-3">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-extrabold text-xs text-emerald-950 uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-cart-shopping text-emerald-600"></i> Satış Sepeti (<span id="list-count">0</span>)
+                    </h3>
+                    <button type="button" onclick="clearInvoiceList()" class="text-[11px] font-bold text-rose-600 hover:underline">Sepeti Boşalt</button>
+                </div>
+                <div id="invoice-items-container" class="space-y-2 max-h-44 overflow-y-auto"><p class="text-xs text-slate-400 italic text-center py-3">Sepet boş.</p></div>
+                <div class="pt-2 border-t border-slate-200 grid grid-cols-2 gap-2">
+                    <button type="button" onclick="openInvoiceModal()" class="py-2.5 bg-emerald-950 hover:bg-emerald-900 text-white text-xs font-bold rounded-xl transition flex items-center justify-center gap-1.5 shadow">
+                        <i class="fa-solid fa-file-invoice text-amber-400"></i> Fatura / PDF
+                    </button>
+                    <button type="button" onclick="shareInvoiceAsImage()" class="py-2.5 bg-teal-700 hover:bg-teal-600 text-white text-xs font-bold rounded-xl transition flex items-center justify-center gap-1.5 shadow">
+                        <i class="fa-solid fa-image"></i> Resim Paylaş
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- EKRAN 2: STOK YÖNETİMİ (ALIŞ & VADE & İSKONTO) -->
+    <section id="view-stock" class="hidden max-w-7xl w-full mx-auto px-4 py-5 flex-1 space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="glass-dark text-white p-5 rounded-3xl border border-white/15 shadow-xl">
+                <span class="text-xs text-emerald-200/80 font-bold block">Toplam Stok Çeşidi</span>
+                <span class="text-2xl font-black text-white mt-1 block" id="stat-stock-varieties">0 Çeşit</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-amber-400/30 shadow-xl">
+                <span class="text-xs text-amber-200 font-bold block">Toplam Depo Maliyet Değeri</span>
+                <span class="text-2xl font-black text-amber-300 mt-1 block" id="stat-stock-value">0,00 ₺</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-rose-400/30 shadow-xl">
+                <span class="text-xs text-rose-300 font-bold block">Kritik Stok Uyarıları</span>
+                <span class="text-2xl font-black text-rose-400 mt-1 block" id="stat-stock-low">0 Ürün</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <div class="lg:col-span-5 space-y-5">
+                <div class="glass-panel p-5 sm:p-6 rounded-3xl shadow-2xl border border-white/60 space-y-4">
+                    <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2 border-b border-slate-200 pb-3">
+                        <i class="fa-solid fa-box-archive text-emerald-600"></i> Depoya Ürün Alış Girişi (İskontolu &amp; Vadeli)
+                    </h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="sm:col-span-2">
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Ürün Adı</label>
+                            <input type="text" id="st-name" placeholder="Örn: DAP Gübresi 50 Kg" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Kategori</label>
+                            <select id="st-category" class="w-full px-3 py-2.5 rounded-xl border border-slate-300 bg-white text-xs font-bold outline-none">
+                                <option value="Gübre">Gübre</option>
+                                <option value="Tohum">Tohum</option>
+                                <option value="Zirai İlaç">Zirai İlaç</option>
+                                <option value="Yem">Yem</option>
+                                <option value="Diğer">Diğer</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Miktar / Çuval</label>
+                            <input type="number" id="st-qty" value="10" min="1" oninput="calculateStockEntry()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-black text-emerald-800 outline-none">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Fabrika Liste Alış Fiyatı (Birim ₺)</label>
+                        <input type="number" id="st-cost" oninput="calculateStockEntry()" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-extrabold outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">5 Kademeli İskonto (%)</label>
+                        <div class="grid grid-cols-5 gap-1.5">
+                            <input type="number" id="st-disc-1" oninput="calculateStockEntry()" placeholder="1.İsk" class="py-2 rounded-lg border border-slate-300 text-xs text-center font-bold outline-none">
+                            <input type="number" id="st-disc-2" oninput="calculateStockEntry()" placeholder="2.İsk" class="py-2 rounded-lg border border-slate-300 text-xs text-center font-bold outline-none">
+                            <input type="number" id="st-disc-3" oninput="calculateStockEntry()" placeholder="3.İsk" class="py-2 rounded-lg border border-slate-300 text-xs text-center font-bold outline-none">
+                            <input type="number" id="st-disc-4" oninput="calculateStockEntry()" placeholder="4.İsk" class="py-2 rounded-lg border border-slate-300 text-xs text-center font-bold outline-none">
+                            <input type="number" id="st-disc-5" oninput="calculateStockEntry()" placeholder="5.İsk" class="py-2 rounded-lg border border-slate-300 text-xs text-center font-bold outline-none">
+                        </div>
+                    </div>
+                    <div class="bg-amber-50/90 border border-amber-200 p-3.5 rounded-2xl space-y-2.5">
+                        <div class="flex justify-between items-center">
+                            <label class="text-xs font-extrabold text-amber-950">Alış Vadesi &amp; Borç</label>
+                            <select id="st-vade-type" onchange="toggleStockVadeMode()" class="text-[10px] bg-white border border-amber-300 rounded px-2 py-1 font-bold text-amber-900 outline-none">
+                                <option value="fixed">Sabit 40 ₺/Ay</option>
+                                <option value="percent">Yüzde %/Ay</option>
+                            </select>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <select id="st-vade-months" onchange="calculateStockEntry()" class="px-2 py-2 rounded-xl border border-amber-300 bg-white text-xs font-bold outline-none">
+                                <option value="0">Peşin Alış</option>
+                                <option value="1">1 Ay Vadeli</option>
+                                <option value="2">2 Ay Vadeli</option>
+                                <option value="3">3 Ay Vadeli</option>
+                                <option value="4">4 Ay Vadeli</option>
+                                <option value="5">5 Ay Vadeli</option>
+                                <option value="6">6 Ay Vadeli</option>
+                            </select>
+                            <input type="number" id="st-vade-rate" value="40" oninput="calculateStockEntry()" placeholder="Fark" class="px-2 py-2 rounded-xl border border-amber-300 bg-white text-xs font-extrabold outline-none">
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>
+                                <label class="block text-[10px] font-bold text-amber-900 mb-0.5">Ödenen Peşinat (₺)</label>
+                                <input type="number" id="st-paid-amount" oninput="calculateStockEntry()" placeholder="0.00" class="w-full px-2 py-1.5 rounded-lg border border-amber-300 bg-white text-xs font-bold outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold text-amber-900 mb-0.5">Alış Tarihi</label>
+                                <input type="date" id="st-purchase-date" onchange="calculateStockEntry()" class="w-full px-2 py-1.5 rounded-lg border border-amber-300 bg-white text-xs font-bold outline-none">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Satış Fiyatı (₺)</label>
+                            <input type="number" id="st-sell" placeholder="0.00" step="0.01" class="w-full px-3 py-2 rounded-xl border border-slate-300 bg-white text-xs font-bold outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Kritik Stok</label>
+                            <input type="number" id="st-min" value="10" class="w-full px-3 py-2 rounded-xl border border-slate-300 bg-white text-xs font-bold outline-none">
+                        </div>
+                    </div>
+
+                    <div class="bg-emerald-950 text-white p-3.5 rounded-2xl space-y-1 text-xs border border-amber-400/30">
+                        <div class="flex justify-between">
+                            <span class="text-emerald-300">Birim Net Maliyet:</span>
+                            <span class="font-extrabold text-amber-300" id="st-preview-unit-cost">0,00 ₺</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-emerald-300">Ödeme Durumu:</span>
+                            <span class="font-bold" id="st-preview-vade-badge">Peşin Alış</span>
+                        </div>
+                        <div class="flex justify-between border-t border-white/10 pt-1 font-black">
+                            <span id="st-preview-total-cost">Toplam: 0,00 ₺</span>
+                            <span class="text-rose-400" id="st-preview-unpaid">Kalan Borç: 0,00 ₺</span>
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="manualAddStock()" class="w-full py-3 bg-emerald-700 hover:bg-emerald-600 text-white font-extrabold rounded-xl shadow transition text-xs flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-plus-circle text-amber-300"></i> Stoğa ve Borca Kaydet
+                    </button>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7">
+                <div class="glass-panel p-5 sm:p-6 rounded-3xl shadow-2xl border border-white/60 space-y-4">
+                    <div class="flex flex-wrap justify-between items-center gap-3 border-b border-slate-200 pb-3">
+                        <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2">
+                            <i class="fa-solid fa-warehouse text-emerald-600"></i> Depo Stok Listesi
+                        </h2>
+                        <input type="text" id="stock-search-input" oninput="renderStockList()" placeholder="Ürün ara..." class="w-full sm:w-48 px-3 py-2 rounded-xl border border-slate-300 text-xs bg-white outline-none">
+                    </div>
+                    <div id="stock-list-container" class="space-y-3 max-h-[600px] overflow-y-auto pr-1">
+                        <div class="text-center py-10 text-slate-400 text-sm">Depoda ürün bulunmuyor.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EKRAN 3: MÜŞTERİ CARİ HESAPLARI -->
+    <section id="view-customers" class="hidden max-w-7xl w-full mx-auto px-4 py-5 flex-1 space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="glass-dark text-white p-5 rounded-3xl border border-white/15 shadow-xl">
+                <span class="text-xs text-emerald-200/80 font-bold block">Kayıtlı Müşteri / Çiftçi</span>
+                <span class="text-2xl font-black text-white mt-1 block" id="stat-cust-count">0 Kişi</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-amber-400/30 shadow-xl">
+                <span class="text-xs text-amber-200 font-bold block">Toplam Müşteri Alacağı (Bakiye)</span>
+                <span class="text-2xl font-black text-amber-300 mt-1 block" id="stat-cust-receivables">0,00 ₺</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-rose-400/30 shadow-xl">
+                <span class="text-xs text-rose-300 font-bold block">10 Günü Geçen Vadeli Satışlar (+40 ₺)</span>
+                <span class="text-2xl font-black text-rose-400 mt-1 block" id="stat-cust-overdue">0 Fatura</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <div class="lg:col-span-4 space-y-5">
+                <div class="glass-panel p-5 rounded-3xl shadow-2xl border border-white/60 space-y-3.5">
+                    <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2 border-b border-slate-200 pb-2.5">
+                        <i class="fa-solid fa-user-plus text-emerald-600"></i> Yeni Müşteri / Çiftçi Kaydı
+                    </h2>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Adı Soyadı / Ünvanı</label>
+                        <input type="text" id="cust-new-name" placeholder="Örn: Ahmet Yılmaz" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Telefon Numarası</label>
+                        <input type="tel" id="cust-new-phone" placeholder="05XX XXX XX XX" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Açılış / Devir Bakiyesi (₺)</label>
+                        <input type="number" id="cust-new-balance" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-extrabold outline-none">
+                    </div>
+                    <button type="button" onclick="createCustomerAccount()" class="w-full py-3 bg-emerald-700 hover:bg-emerald-600 text-white font-extrabold rounded-xl shadow transition text-xs sm:text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-check-circle"></i> Müşteri Kartı Oluştur
+                    </button>
+                </div>
+
+                <div class="glass-panel p-5 rounded-3xl shadow-2xl border border-white/60 space-y-3.5">
+                    <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2 border-b border-slate-200 pb-2.5">
+                        <i class="fa-solid fa-hand-holding-dollar text-amber-600"></i> Müşteriden Tahsilat Al
+                    </h2>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Müşteri Seçin</label>
+                        <select id="pay-customer-select" class="w-full px-3 py-2.5 rounded-xl border border-slate-300 bg-white text-xs font-bold outline-none"><option value="">-- Seçiniz --</option></select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Ödenen Tutar (₺)</label>
+                        <input type="number" id="pay-amount" placeholder="0.00" step="0.01" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm font-black text-emerald-700 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Açıklama</label>
+                        <input type="text" id="pay-note" placeholder="Nakit / Mahsup Tahsilat" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 bg-white text-xs font-medium outline-none">
+                    </div>
+                    <button type="button" onclick="recordCustomerPayment()" class="w-full py-3 bg-amber-500 hover:bg-amber-400 text-emerald-950 font-extrabold rounded-xl shadow transition text-xs sm:text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-coins"></i> Ödemeyi İşle &amp; Bakiyeyi Düş
+                    </button>
+                </div>
+            </div>
+
+            <div class="lg:col-span-8">
+                <div class="glass-panel p-5 sm:p-6 rounded-3xl shadow-2xl border border-white/60 space-y-4">
+                    <div class="flex flex-wrap justify-between items-center gap-3 border-b border-slate-200 pb-3">
+                        <div>
+                            <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2">
+                                <i class="fa-solid fa-address-book text-emerald-600"></i> Müşteri Cari Bakiyeleri &amp; Vade Durumu
+                            </h2>
+                            <p class="text-xs text-slate-500">Vadeli satışlarda <strong>10 gün geçtiğinde</strong> otomatik <strong>+40 ₺</strong> vade farkı eklenir.</p>
+                        </div>
+                        <input type="text" id="customer-search-input" oninput="renderCustomersList()" placeholder="Müşteri ara..." class="w-full sm:w-52 px-3 py-2 rounded-xl border border-slate-300 text-xs bg-white outline-none">
+                    </div>
+                    <div id="customers-list-container" class="space-y-3 max-h-[650px] overflow-y-auto pr-1">
+                        <div class="text-center py-10 text-slate-400 text-sm">Kayıtlı müşteri yok.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EKRAN 4: FATURALAR -->
+    <section id="view-records" class="hidden max-w-7xl w-full mx-auto px-4 py-5 flex-1 space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="glass-dark text-white p-5 rounded-3xl border border-white/15 shadow-xl">
+                <span class="text-xs text-emerald-200/80 font-bold block">Kesilen Fatura Sayısı</span>
+                <span class="text-2xl font-black text-white mt-1 block" id="stat-total-invoices">0 Adet</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-white/15 shadow-xl">
+                <span class="text-xs text-emerald-200/80 font-bold block">Toplam Satış Cirosu</span>
+                <span class="text-2xl font-black text-amber-300 mt-1 block" id="stat-total-sales">0,00 ₺</span>
+            </div>
+            <div class="glass-dark text-white p-5 rounded-3xl border border-emerald-400/30 shadow-xl">
+                <span class="text-xs text-emerald-300 font-bold block">Toplam Net Kâr</span>
+                <span class="text-2xl font-black text-emerald-400 mt-1 block" id="stat-total-profits">0,00 ₺</span>
+            </div>
+        </div>
+
+        <div class="glass-panel p-5 sm:p-6 rounded-3xl shadow-2xl border border-white/60 space-y-4">
+            <div class="flex flex-wrap justify-between items-center gap-3 border-b border-slate-200 pb-3.5">
+                <div>
+                    <h2 class="font-extrabold text-emerald-950 text-base flex items-center gap-2">
+                        <i class="fa-solid fa-folder-open text-emerald-600"></i> Kesilen Faturalar &amp; Otomatik Vade Kontrolü
+                    </h2>
+                    <p class="text-xs text-slate-500">10 günü geçen vadeli satışlara otomatik <strong>+40 ₺</strong> işlenir.</p>
+                </div>
+                <input type="text" id="record-search-input" oninput="renderSavedRecords()" placeholder="Müşteri veya ürün ara..." class="w-full sm:w-64 px-3.5 py-2 rounded-xl border border-slate-300 text-xs bg-white outline-none">
+            </div>
+            <div id="saved-records-container" class="space-y-3">
+                <div class="text-center py-10 text-slate-400 text-sm">Kayıtlı fatura yok.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toast Bildirim -->
+    <div id="toast" class="fixed bottom-5 right-5 bg-emerald-950 text-white px-4 py-3 rounded-2xl shadow-2xl border border-amber-400/30 flex items-center space-x-3 hidden transition-all duration-300 z-50">
+        <i class="fa-solid fa-circle-check text-amber-400"></i>
+        <span id="toast-message" class="text-xs font-bold">İşlem tamamlandı.</span>
+    </div>
+
+    <!-- Telefona Kur Modalı -->
+    <div id="mobile-app-modal" class="fixed inset-0 bg-emerald-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white w-full max-w-xl rounded-3xl shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+            <div class="bg-emerald-950 text-white p-4 flex justify-between items-center">
+                <h3 class="font-extrabold text-base flex items-center"><i class="fa-solid fa-mobile-screen-button text-amber-400 mr-2 text-xl"></i>Hasat Tarım Uygulamasını Kur</h3>
+                <button type="button" onclick="closeMobileAppModal()" class="text-emerald-200 hover:text-white text-xl p-1"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="p-5 overflow-y-auto space-y-4 text-xs text-slate-700">
+                <div class="bg-emerald-50 border border-emerald-200 p-4 rounded-2xl text-emerald-950 space-y-1.5">
+                    <p class="font-extrabold text-sm flex items-center gap-1.5"><i class="fa-solid fa-wheat-awn text-emerald-600"></i> Çift Katmanlı Kalıcı Hafıza (Bulut + Cihaz)</p>
+                    <p>Verileriniz hem tarayıcınızın yerel hafızasında hem de bulutta saklanır. Ana ekrana eklediğinizde asla sıfırlanmaz.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    <button type="button" onclick="downloadStandaloneAppHtml()" class="py-3 px-4 bg-emerald-700 hover:bg-emerald-600 text-white font-extrabold rounded-xl flex items-center justify-center gap-2 shadow">
+                        <i class="fa-solid fa-download text-amber-300"></i> Dosyayı İndir (index.html)
+                    </button>
+                    <button type="button" onclick="openPureAppWindow()" class="py-3 px-4 bg-amber-500 hover:bg-amber-400 text-emerald-950 font-extrabold rounded-xl flex items-center justify-center gap-2 shadow">
+                        <i class="fa-solid fa-up-right-from-square"></i> Tam Ekran Aç
+                    </button>
+                </div>
+                <button type="button" onclick="copyStandaloneAppCode()" class="w-full py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold rounded-xl flex items-center justify-center gap-2 border border-slate-300">
+                    <i class="fa-regular fa-copy"></i> Tüm Kodu Kopyala
+                </button>
+            </div>
+            <div class="p-3.5 bg-slate-100 border-t border-slate-200 flex justify-end">
+                <button type="button" onclick="closeMobileAppModal()" class="px-5 py-2 bg-emerald-950 text-white text-xs font-bold rounded-xl">Kapat</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SATIŞ & FATURA MODALI -->
+    <div id="invoice-modal" class="fixed inset-0 bg-emerald-950/80 backdrop-blur-sm z-50 flex items-center justify-center hidden p-2 sm:p-4">
+        <div class="bg-white w-full max-w-3xl rounded-3xl shadow-2xl overflow-hidden max-h-[95vh] flex flex-col">
+            <div class="bg-emerald-950 text-white p-3.5 flex flex-wrap justify-between items-center gap-2 no-print">
+                <span class="font-extrabold text-sm flex items-center gap-2"><i class="fa-solid fa-file-invoice text-amber-400"></i> Satış &amp; Fatura Belgesi</span>
+                <div class="flex flex-wrap items-center gap-2">
+                    <button type="button" id="btn-finalize-sale" onclick="archiveCurrentInvoice()" class="px-3.5 py-1.5 bg-amber-500 hover:bg-amber-400 text-emerald-950 text-xs font-extrabold rounded-xl flex items-center gap-1.5 shadow">
+                        <i class="fa-solid fa-check-double"></i> Satışı Onayla &amp; Bakiyeye İşle
+                    </button>
+                    <button type="button" onclick="downloadAndSharePdf()" class="px-3 py-1.5 bg-rose-600 hover:bg-rose-500 text-white text-xs font-extrabold rounded-xl flex items-center gap-1.5 shadow">
+                        <i class="fa-solid fa-file-pdf"></i> PDF İndir / Gönder
+                    </button>
+                    <button type="button" onclick="shareInvoiceAsImage()" class="px-3 py-1.5 bg-teal-600 hover:bg-teal-500 text-white text-xs font-bold rounded-xl flex items-center gap-1.5">
+                        <i class="fa-solid fa-share-nodes"></i> Resim Paylaş
+                    </button>
+                    <button type="button" onclick="closeInvoiceModal()" class="text-emerald-200 hover:text-white text-lg px-2"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+
+            <div class="bg-emerald-50/90 px-5 py-3.5 border-b border-emerald-200 grid grid-cols-1 sm:grid-cols-3 gap-3 no-print">
+                <div>
+                    <label class="block text-[11px] font-bold text-emerald-950 mb-1">Müşteri Seçin veya Yazın:</label>
+                    <div class="flex gap-1.5">
+                        <select id="invoice-customer-select" onchange="onInvoiceCustomerSelect()" class="w-1/2 px-2 py-1.5 rounded-xl border border-emerald-300 text-xs bg-white font-bold outline-none"><option value="">-- Seçiniz --</option></select>
+                        <input type="text" id="invoice-customer-name" oninput="updateInvoicePreview()" placeholder="Müşteri Adı..." class="w-1/2 px-2.5 py-1.5 rounded-xl border border-emerald-300 text-xs bg-white font-semibold outline-none">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-emerald-950 mb-1">Satış Ödeme Tipi:</label>
+                    <select id="invoice-payment-status" onchange="updateInvoicePreview()" class="w-full px-3 py-1.5 rounded-xl border border-emerald-300 text-xs bg-white font-extrabold text-emerald-900 outline-none">
+                        <option value="Peşin Satış">Peşin Satış (Farksız)</option>
+                        <option value="Vadeli Satış (10 Gün Opsiyonlu)">Vadeli Satış (10 Gün Geçerse +40 ₺)</option>
+                        <option value="1 Ay Vadeli Satış (+40 ₺)">1 Ay Vadeli Satış (+40 ₺)</option>
+                        <option value="2 Ay Vadeli Satış (+80 ₺)">2 Ay Vadeli Satış (+80 ₺)</option>
+                        <option value="3 Ay Vadeli Satış (+120 ₺)">3 Ay Vadeli Satış (+120 ₺)</option>
+                        <option value="4 Ay Vadeli Satış (+160 ₺)">4 Ay Vadeli Satış (+160 ₺)</option>
+                        <option value="5 Ay Vadeli Satış (+200 ₺)">5 Ay Vadeli Satış (+200 ₺)</option>
+                        <option value="6 Ay Vadeli Satış (+240 ₺)">6 Ay Vadeli Satış (+240 ₺)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-emerald-950 mb-1">Satış Tarihi:</label>
+                    <input type="date" id="invoice-sale-date" onchange="updateInvoicePreview()" class="w-full px-3 py-1.5 rounded-xl border border-emerald-300 text-xs bg-white font-bold outline-none">
+                </div>
+            </div>
+
+            <div class="p-6 overflow-y-auto bg-white" id="printable-invoice">
+                <div class="border-b-2 border-emerald-700 pb-4 mb-5">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                        <div>
+                            <div class="inline-flex items-center gap-2 bg-emerald-800 text-white font-black text-2xl px-4 py-1.5 rounded-xl tracking-wider">
+                                <i class="fa-solid fa-wheat-awn text-amber-300"></i>
+                                <span>HASAT TARIM</span>
+                            </div>
+                            <p class="text-xs font-extrabold text-emerald-950 mt-1.5">Zirai İlaç, Sertifikalı Tohum, Gübre ve Yem Bayii</p>
+                            <p class="text-xs text-slate-600 mt-0.5">Satış Faturası &amp; Cari Hesap Özeti</p>
+                        </div>
+                        <div class="text-left sm:text-right space-y-1">
+                            <div class="inline-flex items-center gap-1.5">
+                                <span class="px-2.5 py-1 bg-emerald-700 text-white font-extrabold text-[11px] rounded-md">GÜBRE</span>
+                                <span class="px-2.5 py-1 bg-amber-500 text-emerald-950 font-extrabold text-[11px] rounded-md">TOHUM</span>
+                                <span class="px-2.5 py-1 bg-slate-800 text-white font-extrabold text-[11px] rounded-md">İLAÇ</span>
+                            </div>
+                            <p class="text-[11px] text-slate-600 font-semibold pt-1">Belge No: <span id="doc-invoice-no">#HT-1001</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center mb-4 text-xs bg-emerald-50/60 p-3.5 rounded-xl border border-emerald-200/80">
+                    <div>
+                        <span class="text-slate-500 block">Sayın / Müşteri:</span>
+                        <span class="font-extrabold text-emerald-950 text-sm" id="doc-customer-display">Sayın Müşterimiz</span>
+                        <span class="text-[11px] text-amber-700 font-extrabold block mt-0.5" id="doc-status-display">Peşin Satış</span>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-slate-500 block">Satış Tarihi:</span>
+                        <span class="font-bold text-slate-800" id="doc-date-display"></span>
+                    </div>
+                </div>
+
+                <table class="w-full text-left border-collapse text-xs mb-5">
+                    <thead>
+                        <tr class="bg-emerald-900 text-white">
+                            <th class="p-2.5 rounded-tl-lg">#</th>
+                            <th class="p-2.5">Ürün Açıklaması</th>
+                            <th class="p-2.5 text-center">Miktar</th>
+                            <th class="p-2.5 text-right">Birim Fiyat</th>
+                            <th class="p-2.5 text-right rounded-tr-lg">Toplam Tutar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="doc-items-tbody" class="divide-y divide-slate-200 border-b border-slate-300">
+                    </tbody>
+                </table>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-xs space-y-1.5">
+                        <p class="font-extrabold text-emerald-950 border-b border-slate-200 pb-1">Müşteri Cari Bakiye Durumu</p>
+                        <div class="flex justify-between text-slate-600">
+                            <span>Önceki Cari Bakiye:</span>
+                            <span class="font-bold" id="doc-prev-balance">0,00 ₺</span>
+                        </div>
+                        <div class="flex justify-between text-slate-600">
+                            <span>Bu Fatura Tutarı:</span>
+                            <span class="font-bold text-emerald-800" id="doc-current-invoice-add">0,00 ₺</span>
+                        </div>
+                        <div class="flex justify-between text-sm font-black text-rose-700 border-t border-slate-300 pt-1.5">
+                            <span>GÜNCEL TOPLAM BAKİYE:</span>
+                            <span id="doc-new-balance">0,00 ₺</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-emerald-50/70 p-3.5 rounded-xl border border-emerald-200 space-y-1.5 text-xs">
+                        <div class="flex justify-between text-slate-600">
+                            <span>Ürün Ara Toplamı:</span>
+                            <span class="font-bold" id="doc-subtotal">0,00 ₺</span>
+                        </div>
+                        <div class="flex justify-between text-rose-700 font-bold" id="doc-late-fee-row">
+                            <span id="doc-late-fee-label">Vade Gecikme Farkı:</span>
+                            <span id="doc-late-fee">+0,00 ₺</span>
+                        </div>
+                        <div class="flex justify-between text-base font-black text-emerald-950 border-t border-emerald-300 pt-2">
+                            <span>FATURA GENEL TOPLAMI:</span>
+                            <span class="text-emerald-700" id="doc-grand-total">0,00 ₺</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-300 pt-4 flex flex-col sm:flex-row justify-between items-center text-[11px] text-slate-600 gap-2">
+                    <p>Not: Süre aşımında ve vadeli satışlarda vade farkı uygulanır.</p>
+                    <div class="text-right">
+                        <p class="font-extrabold text-emerald-900">HASAT TARIM</p>
+                        <p class="text-[10px]">Bereketli Hasatlar Dileriz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Uygulama ve Firebase Kodları -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        const LATE_FEE_DAYS = 10;
+        const LATE_FEE_AMOUNT = 40;
+
+        let db, auth, userId;
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'hasat-tarim-default-app';
+
+        let savedInvoiceItems = [];
+        let archivedInvoices = [];
+        let stockItems = [];
+        let customerAccounts = [];
+        let currentCalculatedItem = null;
+        let previewOverrideRecord = null;
+
+        function getTodayIso() {
+            const now = new Date();
+            const offset = now.getTimezoneOffset() * 60000;
+            return new Date(now.getTime() - offset).toISOString().split('T')[0];
+        }
+
+        function calculateElapsedDays(isoDateStr) {
+            if (!isoDateStr) return 0;
+            const start = new Date(isoDateStr + 'T00:00:00');
+            const today = new Date(getTodayIso() + 'T00:00:00');
+            return Math.max(0, Math.floor((today - start) / (1000 * 60 * 60 * 24)));
+        }
+
+        function isInvoiceOverdue(status, saleDateIso) {
+            if (!status || !status.includes('10 Gün') || !saleDateIso) return false;
+            return calculateElapsedDays(saleDateIso) > LATE_FEE_DAYS;
+        }
+
+        function getInvoiceTermMonths(status) {
+            if (!status) return 0;
+            const match = status.match(/^(\d+)\s*Ay\s*Vadeli/i);
+            return match ? parseInt(match[1], 10) : 0;
+        }
+
+        function calculateSaleVadeFee(status, saleDateIso) {
+            const months = getInvoiceTermMonths(status);
+            if (months > 0) return months * LATE_FEE_AMOUNT;
+            if (isInvoiceOverdue(status, saleDateIso)) return LATE_FEE_AMOUNT;
+            return 0;
+        }
+
+        function formatTL(num) {
+            const val = Number.isFinite(num) ? num : 0;
+            return new Intl.NumberFormat('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(val) + ' ₺';
+        }
+
+        window.showToast = function(msg) {
+            const toast = document.getElementById('toast');
+            const msgEl = document.getElementById('toast-message');
+            if (!toast || !msgEl) return;
+            msgEl.innerText = msg;
+            toast.classList.remove('hidden');
+            clearTimeout(window._toastTimer);
+            window._toastTimer = setTimeout(() => toast.classList.add('hidden'), 3200);
+        }
+
+        window.switchMainView = function(viewName) {
+            const views = ['calculator', 'stock', 'customers', 'records'];
+            views.forEach(v => {
+                const viewEl = document.getElementById(`view-${v}`);
+                const btnEl = document.getElementById(`nav-btn-${v}`);
+                if (!viewEl || !btnEl) return;
+                if (v === viewName) {
+                    viewEl.classList.remove('hidden');
+                    btnEl.className = 'py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-extrabold transition-all flex items-center justify-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-lg border border-emerald-400/30';
+                } else {
+                    viewEl.classList.add('hidden');
+                    btnEl.className = 'py-3 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-bold transition-all flex items-center justify-center gap-1.5 text-emerald-100/80 hover:text-white hover:bg-white/10';
+                }
+            });
+
+            if (viewName === 'stock') {
+                window.calculateStockEntry();
+                window.renderStockList();
+            } else if (viewName === 'customers') {
+                window.renderCustomersList();
+            } else if (viewName === 'records') {
+                window.renderSavedRecords();
+            }
+        }
+
+        // Çift Katmanlı Kalıcı Hafıza (Local + Cloud)
+        function loadLocalData() {
+            try {
+                const cart = localStorage.getItem('hasat_cart');
+                const inv = localStorage.getItem('hasat_invoices');
+                const st = localStorage.getItem('hasat_stock');
+                const cust = localStorage.getItem('hasat_customers');
+                if (cart) savedInvoiceItems = JSON.parse(cart);
+                if (inv) archivedInvoices = JSON.parse(inv);
+                if (st) stockItems = JSON.parse(st);
+                if (cust) customerAccounts = JSON.parse(cust);
+            } catch (e) {
+                console.error("Local storage okuma hatası:", e);
+            }
+        }
+
+        function saveLocalData() {
+            try {
+                localStorage.setItem('hasat_cart', JSON.stringify(savedInvoiceItems));
+                localStorage.setItem('hasat_invoices', JSON.stringify(archivedInvoices));
+                localStorage.setItem('hasat_stock', JSON.stringify(stockItems));
+                localStorage.setItem('hasat_customers', JSON.stringify(customerAccounts));
+            } catch (e) {
+                console.error("Local storage yazma hatası:", e);
+            }
+        }
+
+        async function saveCloudData() {
+            saveLocalData(); // Her zaman önce yerel hafızaya anında kaydet (sıfırlanmayı önler)
+            if (!db || !auth || !auth.currentUser) return;
+            try {
+                const docRef = doc(db, 'artifacts', appId, 'public', 'data', 'hasat_tarim_cloud_db');
+                await setDoc(docRef, {
+                    cart: savedInvoiceItems,
+                    invoices: archivedInvoices,
+                    stock: stockItems,
+                    customers: customerAccounts,
+                    updatedAt: new Date().toISOString()
+                }, { merge: true });
+            } catch (err) {
+                console.error("Bulut kayıt hatası:", err);
+            }
+        }
+
+        async function initCloudDatabase() {
+            loadLocalData(); // Önce lokal veriyi yükle ki internet olmasa bile anında görünsün
+            window.calculateCostProfit();
+            window.renderInvoiceList();
+            window.updateStockStats();
+            window.updateCustomerStats();
+            window.updateArchiveStats();
+
+            try {
+                const firebaseConfig = JSON.parse(__firebase_config);
+                const app = initializeApp(firebaseConfig);
+                db = getFirestore(app);
+                auth = getAuth(app);
+
+                if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+                    await signInWithCustomToken(auth, __initial_auth_token);
+                } else {
+                    await signInAnonymously(auth);
+                }
+                userId = auth.currentUser?.uid || crypto.randomUUID();
+
+                const docRef = doc(db, 'artifacts', appId, 'public', 'data', 'hasat_tarim_cloud_db');
+                onSnapshot(docRef, (docSnap) => {
+                    if (docSnap.exists()) {
+                        const data = docSnap.data();
+                        if (data.cart) savedInvoiceItems = data.cart;
+                        if (data.invoices) archivedInvoices = data.invoices;
+                        if (data.stock) stockItems = data.stock;
+                        if (data.customers) customerAccounts = data.customers;
+                        saveLocalData();
+                    }
+                    window.calculateCostProfit();
+                    window.renderInvoiceList();
+                    window.updateStockStats();
+                    window.updateCustomerStats();
+                    window.updateArchiveStats();
+                }, (err) => {
+                    console.log("Bulut dinleme hatası (lokal veriler devrede):", err);
+                });
+            } catch (e) {
+                console.log("Firebase bağlantı hatası (lokal veriler devrede):", e);
+            }
+        }
+
+        window.toggleVadeMode = function() {
+            const type = document.getElementById('cp-vade-type').value;
+            const label = document.getElementById('vade-rate-label');
+            const input = document.getElementById('cp-vade-rate');
+            if (type === 'fixed') {
+                label.innerText = 'Aylık Vade Farkı (₺ / Ay)';
+                input.value = '40';
+            } else {
+                label.innerText = 'Aylık Vade Oranı (% / Ay)';
+                input.value = '1.5';
+            }
+            window.calculateCostProfit();
+        }
+
+        function renderBreakdownTable(steps) {
+            const tbody = document.getElementById('breakdown-body');
+            if (!tbody) return;
+            if (!steps || steps.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" class="py-4 text-center text-slate-400 italic">Hesaplama için liste fiyatı giriniz...</td></tr>';
+                return;
+            }
+            tbody.innerHTML = steps.map(s => `
+                <tr class="${s.highlight ? 'bg-emerald-50 font-extrabold text-emerald-950' : ''}">
+                    <td class="py-2">${s.label}</td>
+                    <td class="py-2 text-right ${s.isAddition ? 'text-amber-600 font-bold' : (s.isDiscount ? 'text-emerald-700 font-bold' : 'text-slate-500')}">${s.effect}</td>
+                    <td class="py-2 text-right font-extrabold">${formatTL(s.balance)}</td>
+                </tr>
+            `).join('');
+        }
+
+        window.calculateCostProfit = function() {
+            const listPrice = parseFloat(document.getElementById('cp-price')?.value) || 0;
+            const qty = Math.max(1, parseInt(document.getElementById('cp-quantity')?.value) || 1);
+            const name = document.getElementById('cp-product-name')?.value.trim() || 'Ürün';
+
+            const d1 = parseFloat(document.getElementById('cp-disc-1')?.value) || 0;
+            const d2 = parseFloat(document.getElementById('cp-disc-2')?.value) || 0;
+            const d3 = parseFloat(document.getElementById('cp-disc-3')?.value) || 0;
+            const d4 = parseFloat(document.getElementById('cp-disc-4')?.value) || 0;
+            const d5 = parseFloat(document.getElementById('cp-disc-5')?.value) || 0;
+
+            const vadeMonths = parseInt(document.getElementById('cp-vade-months')?.value) || 0;
+            const vadeType = document.getElementById('cp-vade-type')?.value || 'fixed';
+            const vadeRate = parseFloat(document.getElementById('cp-vade-rate')?.value) || 0;
+            const shipping = parseFloat(document.getElementById('cp-shipping')?.value) || 0;
+            const other = parseFloat(document.getElementById('cp-other')?.value) || 0;
+            const sellPrice = parseFloat(document.getElementById('cp-sell-price')?.value) || 0;
+            const sellVadeMonths = parseInt(document.getElementById('cp-sell-vade-months')?.value) || 0;
+
+            let current = listPrice;
+            const steps = [];
+
+            if (listPrice > 0) {
+                steps.push({ label: 'Fabrika Liste Fiyatı', effect: '-', balance: current });
+                [d1, d2, d3, d4, d5].forEach((d, i) => {
+                    if (d > 0) {
+                        const diff = current * (d / 100);
+                        current -= diff;
+                        steps.push({ label: `${i + 1}. İskonto (%${d})`, effect: `-${formatTL(diff)}`, balance: current, isDiscount: true });
+                    }
+                });
+
+                if (vadeMonths > 0 && vadeRate > 0) {
+                    let vadeCost = vadeType === 'fixed' ? (vadeMonths * vadeRate) : (current * ((vadeMonths * vadeRate) / 100));
+                    current += vadeCost;
+                    steps.push({ label: `Fabrika Vadesi (${vadeMonths} Ay)`, effect: `+${formatTL(vadeCost)}`, balance: current, isAddition: true });
+                }
+
+                if (shipping > 0) {
+                    current += shipping;
+                    steps.push({ label: 'Nakliye Gideri', effect: `+${formatTL(shipping)}`, balance: current, isAddition: true });
+                }
+                if (other > 0) {
+                    current += other;
+                    steps.push({ label: 'Diğer Giderler', effect: `+${formatTL(other)}`, balance: current, isAddition: true });
+                }
+                steps.push({ label: 'Birim Toplam Net Maliyet', effect: 'SONUÇ', balance: current, highlight: true });
+            }
+
+            const unitNetCost = current;
+            const sellVadeFee = sellVadeMonths * LATE_FEE_AMOUNT;
+            const baseSell = sellPrice > 0 ? sellPrice : unitNetCost;
+            const effectiveSell = baseSell + sellVadeFee;
+            const unitProfit = (sellPrice > 0 || sellVadeMonths > 0) ? (effectiveSell - unitNetCost) : 0;
+            const marginPct = unitNetCost > 0 && effectiveSell > 0 ? ((unitProfit / unitNetCost) * 100) : 0;
+            const totalProfit = unitProfit * qty;
+            const totalRevenue = effectiveSell * qty;
+
+            const vadeSellPreviewEl = document.getElementById('cp-vade-sell-preview');
+            if (vadeSellPreviewEl) {
+                vadeSellPreviewEl.innerText = sellVadeMonths > 0
+                    ? `${formatTL(effectiveSell)} (${sellVadeMonths} Ay Vadeli: +${formatTL(sellVadeFee)})`
+                    : `${formatTL(effectiveSell)} (Peşin)`;
+            }
+
+            document.getElementById('res-main-value').innerText = formatTL(unitNetCost);
+            document.getElementById('res-badge').innerText = vadeMonths > 0 ? `${vadeMonths} Ay Vadeli` : 'Peşin Maliyet';
+            document.getElementById('res-sub-info').innerText = `${qty} Adet Maliyet: ${formatTL(unitNetCost * qty)}`;
+
+            document.getElementById('res-unit-profit').innerText = formatTL(unitProfit);
+            document.getElementById('res-unit-profit').className = `text-lg font-extrabold ${unitProfit >= 0 ? 'text-emerald-400' : 'text-rose-400'}`;
+            document.getElementById('res-profit-margin').innerText = `Kâr Marjı: %${marginPct.toFixed(2)}`;
+
+            document.getElementById('res-qty-label').innerText = qty;
+            document.getElementById('res-total-profit').innerText = formatTL(totalProfit);
+            document.getElementById('res-total-profit').className = `text-xl font-black ${totalProfit >= 0 ? 'text-amber-300' : 'text-rose-400'}`;
+            document.getElementById('res-total-revenue').innerText = `Ciro: ${formatTL(totalRevenue)}`;
+
+            renderBreakdownTable(steps);
+
+            if (listPrice > 0) {
+                currentCalculatedItem = {
+                    name,
+                    qty,
+                    listPrice,
+                    unitCost: unitNetCost,
+                    sellPrice: effectiveSell,
+                    totalSell: effectiveSell * qty,
+                    totalProfit: unitProfit * qty,
+                    vadeMonths,
+                    sellVadeMonths
+                };
+            } else {
+                currentCalculatedItem = null;
+            }
+        }
+
+        window.resetCostProfitForm = function() {
+            ['cp-product-name', 'cp-price', 'cp-disc-1', 'cp-disc-2', 'cp-disc-3', 'cp-disc-4', 'cp-disc-5', 'cp-shipping', 'cp-other', 'cp-sell-price'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.value = '';
+            });
+            document.getElementById('cp-quantity').value = '1';
+            document.getElementById('cp-vade-months').value = '0';
+            if (document.getElementById('cp-sell-vade-months')) document.getElementById('cp-sell-vade-months').value = '0';
+            window.calculateCostProfit();
+            showToast('Form temizlendi.');
+        }
+
+        window.saveToInvoiceList = function() {
+            if (!currentCalculatedItem || currentCalculatedItem.listPrice <= 0) {
+                showToast('Lütfen önce liste fiyatı girip hesaplama yapın.');
+                return;
+            }
+            savedInvoiceItems.push({ ...currentCalculatedItem });
+            saveCloudData();
+            window.renderInvoiceList();
+            showToast(`"${currentCalculatedItem.name}" satış sepetine eklendi!`);
+        }
+
+        window.addCalculatedToStock = function() {
+            if (!currentCalculatedItem || currentCalculatedItem.listPrice <= 0) {
+                showToast('Lütfen önce liste fiyatı girip hesaplama yapın.');
+                return;
+            }
+            const existing = stockItems.find(s => s.name.toLowerCase() === currentCalculatedItem.name.toLowerCase());
+            if (existing) {
+                existing.qty += currentCalculatedItem.qty;
+                existing.unitCost = currentCalculatedItem.unitCost;
+                existing.sellPrice = currentCalculatedItem.sellPrice;
+            } else {
+                stockItems.unshift({
+                    id: Date.now(),
+                    name: currentCalculatedItem.name,
+                    category: 'Gübre',
+                    qty: currentCalculatedItem.qty,
+                    unitCost: currentCalculatedItem.unitCost,
+                    sellPrice: currentCalculatedItem.sellPrice,
+                    minAlert: 10,
+                    purchaseDateIso: getTodayIso(),
+                    unpaidBalance: 0
+                });
+            }
+            saveCloudData();
+            window.updateStockStats();
+            showToast(`"${currentCalculatedItem.name}" stoğa eklendi!`);
+            window.switchMainView('stock');
+        }
+
+        window.renderInvoiceList = function() {
+            const container = document.getElementById('invoice-items-container');
+            const countBadge = document.getElementById('list-count');
+            const headerBadge = document.getElementById('header-cart-count');
+            if (countBadge) countBadge.innerText = savedInvoiceItems.length;
+            if (headerBadge) headerBadge.innerText = savedInvoiceItems.length;
+            if (!container) return;
+
+            if (savedInvoiceItems.length === 0) {
+                container.innerHTML = '<p class="text-xs text-slate-400 italic text-center py-3">Sepet boş.</p>';
+                return;
+            }
+
+            container.innerHTML = savedInvoiceItems.map((it, idx) => `
+                <div class="flex justify-between items-center p-2.5 bg-emerald-50/70 rounded-xl border border-emerald-200/80 text-xs">
+                    <div>
+                        <span class="font-extrabold text-emerald-950 block">${it.name} (${it.qty} Adet)</span>
+                        <span class="text-slate-600">Birim: ${formatTL(it.sellPrice)} • Toplam: <strong class="text-emerald-800">${formatTL(it.totalSell)}</strong></span>
+                    </div>
+                    <button type="button" onclick="removeInvoiceItem(${idx})" class="text-rose-500 hover:text-rose-700 p-1.5"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            `).join('');
+        }
+
+        window.removeInvoiceItem = function(idx) {
+            savedInvoiceItems.splice(idx, 1);
+            saveCloudData();
+            window.renderInvoiceList();
+        }
+
+        window.clearInvoiceList = function() {
+            savedInvoiceItems = [];
+            saveCloudData();
+            window.renderInvoiceList();
+            showToast('Sepet boşaltıldı.');
+        }
+
+        window.directQuickSale = function() {
+            if (savedInvoiceItems.length === 0 && currentCalculatedItem && currentCalculatedItem.listPrice > 0) {
+                savedInvoiceItems.push({ ...currentCalculatedItem });
+                saveCloudData();
+                window.renderInvoiceList();
+            }
+            if (savedInvoiceItems.length === 0) {
+                showToast('Önce sepete ürün ekleyin.');
+                return;
+            }
+            const custNameInput = document.getElementById('direct-customer-name');
+            const custName = custNameInput ? custNameInput.value.trim() : '';
+            if (!custName) {
+                showToast('Lütfen müşteri adını yazın.');
+                return;
+            }
+
+            let custObj = customerAccounts.find(c => c.name.toLowerCase() === custName.toLowerCase());
+            if (!custObj) {
+                custObj = { id: Date.now(), name: custName, phone: '', balance: 0, transactions: [] };
+                customerAccounts.unshift(custObj);
+            }
+
+            const subtotal = savedInvoiceItems.reduce((sum, it) => sum + it.totalSell, 0);
+            const totalProfit = savedInvoiceItems.reduce((sum, it) => sum + (it.totalProfit || 0), 0);
+            const saleDateIso = getTodayIso();
+            const prevBalance = custObj.balance || 0;
+
+            custObj.balance = prevBalance + subtotal;
+            custObj.transactions = custObj.transactions || [];
+            custObj.transactions.unshift({
+                date: new Date(saleDateIso + 'T00:00:00').toLocaleDateString('tr-TR'),
+                type: 'Hızlı Doğrudan Satış',
+                amount: subtotal,
+                note: `${savedInvoiceItems.length} kalem ürün`
+            });
+
+            savedInvoiceItems.forEach(soldItem => {
+                const stockMatch = stockItems.find(st => (soldItem.stockId && st.id === soldItem.stockId) || st.name.toLowerCase().trim() === soldItem.name.toLowerCase().trim());
+                if (stockMatch) stockMatch.qty = Math.max(0, stockMatch.qty - soldItem.qty);
+            });
+
+            archivedInvoices.unshift({
+                id: Date.now(),
+                customerId: custObj.id,
+                customer: custName,
+                status: 'Vadeli Satış (Hızlı)',
+                saleDateIso,
+                date: new Date(saleDateIso + 'T00:00:00').toLocaleDateString('tr-TR'),
+                time: new Date().toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }),
+                items: JSON.parse(JSON.stringify(savedInvoiceItems)),
+                subtotalAmount: subtotal,
+                lateFeeApplied: false,
+                lateFeeAmount: 0,
+                totalAmount: subtotal,
+                totalProfit,
+                prevBalance,
+                paid: false
+            });
+
+            savedInvoiceItems = [];
+            if (custNameInput) custNameInput.value = '';
+            window.renderInvoiceList();
+            saveCloudData();
+            window.updateStockStats();
+            window.updateCustomerStats();
+            window.updateArchiveStats();
+
+            showToast(`"${custName}" adına satış kaydedildi!`);
+            window.switchMainView('records');
+        }
+
+        window.toggleStockVadeMode = function() {
+            const type = document.getElementById('st-vade-type').value;
+            const input = document.getElementById('st-vade-rate');
+            if (type === 'fixed') {
+                if (input) input.value = '40';
+            } else {
+                if (input) input.value = '1.5';
+            }
+            window.calculateStockEntry();
+        }
+
+        window.calculateStockEntry = function() {
+            const qty = Math.max(0, parseInt(document.getElementById('st-qty')?.value) || 0);
+            const listPrice = parseFloat(document.getElementById('st-cost')?.value) || 0;
+            const d1 = parseFloat(document.getElementById('st-disc-1')?.value) || 0;
+            const d2 = parseFloat(document.getElementById('st-disc-2')?.value) || 0;
+            const d3 = parseFloat(document.getElementById('st-disc-3')?.value) || 0;
+            const d4 = parseFloat(document.getElementById('st-disc-4')?.value) || 0;
+            const d5 = parseFloat(document.getElementById('st-disc-5')?.value) || 0;
+
+            const vadeType = document.getElementById('st-vade-type')?.value || 'fixed';
+            const vadeMonths = parseInt(document.getElementById('st-vade-months')?.value) || 0;
+            const vadeRate = parseFloat(document.getElementById('st-vade-rate')?.value) || 0;
+            const purchaseDateIso = document.getElementById('st-purchase-date')?.value || getTodayIso();
+
+            let unitNetCost = listPrice;
+            if (listPrice > 0) {
+                [d1, d2, d3, d4, d5].forEach(d => {
+                    if (d > 0) unitNetCost -= unitNetCost * (d / 100);
+                });
+                if (vadeMonths > 0 && vadeRate > 0) {
+                    unitNetCost += (vadeType === 'fixed' ? (vadeMonths * vadeRate) : (unitNetCost * ((vadeMonths * vadeRate) / 100)));
+                }
+            }
+
+            const totalCost = unitNetCost * qty;
+            const paidInput = document.getElementById('st-paid-amount')?.value;
+            let unpaidBalance = 0;
+            let lateFeeAdded = false;
+
+            if (vadeMonths > 0) {
+                const paid = paidInput !== '' ? (parseFloat(paidInput) || 0) : 0;
+                unpaidBalance = Math.max(0, totalCost - paid);
+                if (unpaidBalance > 0 && calculateElapsedDays(purchaseDateIso) > LATE_FEE_DAYS) {
+                    unpaidBalance += LATE_FEE_AMOUNT;
+                    lateFeeAdded = true;
+                }
+            }
+
+            document.getElementById('st-preview-unit-cost').innerText = formatTL(unitNetCost);
+            document.getElementById('st-preview-vade-badge').innerText = vadeMonths > 0 ? `${vadeMonths} Ay Vadeli Alış` : 'Peşin Alış';
+            document.getElementById('st-preview-total-cost').innerText = `Toplam: ${formatTL(totalCost)}`;
+            document.getElementById('st-preview-unpaid').innerText = lateFeeAdded ? `${formatTL(unpaidBalance)} (+40 ₺ Dahil)` : formatTL(unpaidBalance);
+
+            return { unitNetCost, totalCost, unpaidBalance, lateFeeAdded, vadeMonths, purchaseDateIso };
+        }
+
+        window.manualAddStock = function() {
+            const name = document.getElementById('st-name').value.trim();
+            const category = document.getElementById('st-category').value;
+            const qty = parseInt(document.getElementById('st-qty').value) || 0;
+            const sellPrice = parseFloat(document.getElementById('st-sell').value) || 0;
+            const minAlert = parseInt(document.getElementById('st-min').value) || 10;
+
+            if (!name || qty <= 0) {
+                showToast('Lütfen ürün adı ve miktar girin.');
+                return;
+            }
+
+            const calc = window.calculateStockEntry();
+            const finalSell = sellPrice > 0 ? sellPrice : calc.unitNetCost;
+
+            const existing = stockItems.find(s => s.name.toLowerCase() === name.toLowerCase());
+            if (existing) {
+                existing.qty += qty;
+                existing.unitCost = calc.unitNetCost;
+                existing.sellPrice = finalSell;
+                existing.unpaidBalance = (existing.unpaidBalance || 0) + calc.unpaidBalance;
+            } else {
+                stockItems.unshift({
+                    id: Date.now(),
+                    name,
+                    category,
+                    qty,
+                    unitCost: calc.unitNetCost,
+                    sellPrice: finalSell,
+                    minAlert,
+                    unpaidBalance: calc.unpaidBalance
+                });
+            }
+
+            ['st-name', 'st-qty', 'st-cost', 'st-sell', 'st-disc-1', 'st-disc-2', 'st-disc-3', 'st-disc-4', 'st-disc-5', 'st-paid-amount'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.value = '';
+            });
+            saveCloudData();
+            window.updateStockStats();
+            window.renderStockList();
+            showToast(`"${name}" stoğa eklendi!`);
+        }
+
+        window.updateStockStats = function() {
+            const navBadge = document.getElementById('nav-stock-count');
+            if (navBadge) navBadge.innerText = stockItems.length;
+            document.getElementById('stat-stock-varieties').innerText = `${stockItems.length} Çeşit`;
+            const totalVal = stockItems.reduce((sum, s) => sum + (s.qty * s.unitCost), 0);
+            const lowCount = stockItems.filter(s => s.qty <= (s.minAlert || 10)).length;
+            document.getElementById('stat-stock-value').innerText = formatTL(totalVal);
+            document.getElementById('stat-stock-low').innerText = `${lowCount} Ürün`;
+        }
+
+        window.renderStockList = function() {
+            window.updateStockStats();
+            const container = document.getElementById('stock-list-container');
+            if (!container) return;
+
+            const search = (document.getElementById('stock-search-input')?.value || '').toLowerCase().trim();
+            const filtered = stockItems.filter(st => !search || st.name.toLowerCase().includes(search));
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="text-center py-10 text-slate-400 text-sm">Depoda ürün bulunmuyor.</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(st => {
+                const isLow = st.qty <= (st.minAlert || 10);
+                const hasUnpaid = (st.unpaidBalance || 0) > 0;
+                return `
+                    <div class="p-4 bg-white rounded-2xl border ${isLow ? 'border-rose-300 bg-rose-50/20' : 'border-slate-200'} shadow-sm flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+                        <div class="space-y-1">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="font-extrabold text-emerald-950 text-sm">${st.name}</span>
+                                <span class="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 text-[10px] font-bold">${st.category}</span>
+                                <span class="px-2 py-0.5 rounded-md ${isLow ? 'bg-rose-100 text-rose-700 font-extrabold' : 'bg-slate-100 text-slate-700 font-bold'} text-[10px]">
+                                    Stok: ${st.qty} Adet ${isLow ? '(KRİTİK)' : ''}
+                                </span>
+                            </div>
+                            <p class="text-xs text-slate-600">
+                                Maliyet: <strong>${formatTL(st.unitCost)}</strong> • Satış: <strong class="text-emerald-700">${formatTL(st.sellPrice)}</strong>
+                            </p>
+                            ${hasUnpaid ? `<p class="text-[11px] font-extrabold text-rose-700">Ödenmeyen Borç: ${formatTL(st.unpaidBalance)}</p>` : ''}
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <button type="button" onclick="addStockItemToCart(${st.id})" class="px-3 py-2 bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-extrabold rounded-xl flex items-center gap-1.5 shadow">
+                                <i class="fa-solid fa-cart-plus text-amber-300"></i> Sepete Ekle
+                            </button>
+                            <button type="button" onclick="deleteStockItem(${st.id})" class="p-2 text-rose-400 hover:text-rose-600"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        window.addStockItemToCart = function(stockId) {
+            const st = stockItems.find(s => s.id === stockId);
+            if (!st || st.qty <= 0) {
+                showToast('Stokta ürün kalmadı!');
+                return;
+            }
+            const existing = savedInvoiceItems.find(it => it.stockId === st.id);
+            if (existing) {
+                existing.qty += 1;
+                existing.totalSell = existing.qty * existing.sellPrice;
+                existing.totalProfit = existing.qty * (existing.sellPrice - existing.unitCost);
+            } else {
+                savedInvoiceItems.push({
+                    stockId: st.id,
+                    name: st.name,
+                    qty: 1,
+                    listPrice: st.unitCost,
+                    unitCost: st.unitCost,
+                    sellPrice: st.sellPrice,
+                    totalSell: st.sellPrice,
+                    totalProfit: st.sellPrice - st.unitCost
+                });
+            }
+            saveCloudData();
+            window.renderInvoiceList();
+            showToast(`"${st.name}" sepete eklendi!`);
+        }
+
+        window.deleteStockItem = function(stockId) {
+            stockItems = stockItems.filter(s => s.id !== stockId);
+            saveCloudData();
+            window.renderStockList();
+            showToast('Stok silindi.');
+        }
+
+        window.createCustomerAccount = function() {
+            const name = document.getElementById('cust-new-name').value.trim();
+            const phone = document.getElementById('cust-new-phone').value.trim();
+            const balance = parseFloat(document.getElementById('cust-new-balance').value) || 0;
+            if (!name) {
+                showToast('Müşteri adı giriniz.');
+                return;
+            }
+            customerAccounts.unshift({ id: Date.now(), name, phone, balance, transactions: [] });
+            document.getElementById('cust-new-name').value = '';
+            document.getElementById('cust-new-phone').value = '';
+            document.getElementById('cust-new-balance').value = '';
+            saveCloudData();
+            window.renderCustomersList();
+            showToast(`"${name}" kaydedildi.`);
+        }
+
+        window.recordCustomerPayment = function() {
+            const custId = parseInt(document.getElementById('pay-customer-select').value);
+            const amount = parseFloat(document.getElementById('pay-amount').value) || 0;
+            const note = document.getElementById('pay-note').value.trim() || 'Tahsilat';
+            if (!custId || amount <= 0) {
+                showToast('Müşteri seçip tutar girin.');
+                return;
+            }
+            const cust = customerAccounts.find(c => c.id === custId);
+            if (!cust) return;
+            cust.balance = Math.max(0, (cust.balance || 0) - amount);
+            cust.transactions = cust.transactions || [];
+            cust.transactions.unshift({ date: new Date().toLocaleDateString('tr-TR'), type: 'Tahsilat', amount: -amount, note });
+            document.getElementById('pay-amount').value = '';
+            document.getElementById('pay-note').value = '';
+            saveCloudData();
+            window.renderCustomersList();
+            showToast(`${cust.name} hesabından ${formatTL(amount)} tahsil edildi.`);
+        }
+
+        window.updateCustomerStats = function() {
+            const navBadge = document.getElementById('nav-customers-count');
+            if (navBadge) navBadge.innerText = customerAccounts.length;
+            document.getElementById('stat-cust-count').innerText = `${customerAccounts.length} Kişi`;
+            const totalReceivables = customerAccounts.reduce((sum, c) => sum + (c.balance || 0), 0);
+            document.getElementById('stat-cust-receivables').innerText = formatTL(totalReceivables);
+            document.getElementById('stat-cust-overdue').innerText = `${archivedInvoices.filter(inv => inv.lateFeeApplied && !inv.paid).length} Fatura`;
+
+            const paySel = document.getElementById('pay-customer-select');
+            const invSel = document.getElementById('invoice-customer-select');
+            const html = '<option value="">-- Seçiniz --</option>' + customerAccounts.map(c => `<option value="${c.id}">${c.name} (Bakiye: ${formatTL(c.balance || 0)})</option>`).join('');
+            if (paySel) paySel.innerHTML = html;
+            if (invSel) invSel.innerHTML = html;
+        }
+
+        window.renderCustomersList = function() {
+            window.updateCustomerStats();
+            const container = document.getElementById('customers-list-container');
+            if (!container) return;
+            const search = (document.getElementById('customer-search-input')?.value || '').toLowerCase().trim();
+            const filtered = customerAccounts.filter(c => !search || c.name.toLowerCase().includes(search));
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="text-center py-10 text-slate-400 text-sm">Kayıtlı müşteri yok.</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(c => `
+                <div class="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm space-y-2.5">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="font-extrabold text-emerald-950 text-sm block">${c.name}</span>
+                            <span class="text-[11px] text-slate-500">${c.phone || ''}</span>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-[10px] text-slate-400 block font-bold">BAKİYE</span>
+                            <span class="text-base font-black ${(c.balance || 0) > 0 ? 'text-rose-700' : 'text-emerald-700'}">${formatTL(c.balance || 0)}</span>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function getSelectedCustomerObj() {
+            const selVal = document.getElementById('invoice-customer-select')?.value;
+            if (selVal) return customerAccounts.find(c => c.id === parseInt(selVal)) || null;
+            const typedName = document.getElementById('invoice-customer-name')?.value.trim().toLowerCase();
+            if (typedName) return customerAccounts.find(c => c.name.toLowerCase() === typedName) || null;
+            return null;
+        }
+
+        window.onInvoiceCustomerSelect = function() {
+            const cust = getSelectedCustomerObj();
+            if (cust) document.getElementById('invoice-customer-name').value = cust.name;
+            window.updateInvoicePreview();
+        }
+
+        window.openInvoiceModal = function(archivedRecord = null) {
+            window.updateCustomerStats();
+            const finalizeBtn = document.getElementById('btn-finalize-sale');
+            if (archivedRecord) {
+                previewOverrideRecord = archivedRecord;
+                document.getElementById('invoice-customer-name').value = archivedRecord.customer;
+                document.getElementById('invoice-payment-status').value = archivedRecord.status;
+                if (archivedRecord.saleDateIso) document.getElementById('invoice-sale-date').value = archivedRecord.saleDateIso;
+                if (finalizeBtn) finalizeBtn.classList.add('hidden');
+            } else {
+                previewOverrideRecord = null;
+                if (finalizeBtn) finalizeBtn.classList.remove('hidden');
+                if (savedInvoiceItems.length === 0 && currentCalculatedItem && currentCalculatedItem.listPrice > 0) {
+                    savedInvoiceItems.push({ ...currentCalculatedItem });
+                    saveCloudData();
+                    window.renderInvoiceList();
+                }
+                const dateEl = document.getElementById('invoice-sale-date');
+                if (dateEl && !dateEl.value) dateEl.value = getTodayIso();
+            }
+            document.getElementById('doc-invoice-no').innerText = `#HT-${1001 + archivedInvoices.length}`;
+            window.updateInvoicePreview();
+            document.getElementById('invoice-modal').classList.remove('hidden');
+        }
+
+        window.closeInvoiceModal = function() {
+            document.getElementById('invoice-modal').classList.add('hidden');
+            previewOverrideRecord = null;
+        }
+
+        window.updateInvoicePreview = function() {
+            const custName = document.getElementById('invoice-customer-name').value.trim() || 'Sayın Müşterimiz';
+            const status = document.getElementById('invoice-payment-status').value;
+            const saleDateIso = document.getElementById('invoice-sale-date').value || getTodayIso();
+            const lateFee = calculateSaleVadeFee(status, saleDateIso);
+
+            document.getElementById('doc-customer-display').innerText = custName;
+            document.getElementById('doc-status-display').innerText = status;
+            document.getElementById('doc-date-display').innerText = new Date(saleDateIso + 'T00:00:00').toLocaleDateString('tr-TR');
+
+            const itemsToRender = previewOverrideRecord ? previewOverrideRecord.items : savedInvoiceItems;
+            const tbody = document.getElementById('doc-items-tbody');
+            let subtotal = 0;
+
+            if (!itemsToRender || itemsToRender.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-slate-400">Ürün yok.</td></tr>';
+            } else {
+                tbody.innerHTML = itemsToRender.map((it, i) => {
+                    subtotal += it.totalSell;
+                    return `
+                        <tr>
+                            <td class="p-2.5 font-semibold">${i + 1}</td>
+                            <td class="p-2.5 font-bold text-slate-800">${it.name}</td>
+                            <td class="p-2.5 text-center">${it.qty} Adet</td>
+                            <td class="p-2.5 text-right">${formatTL(it.sellPrice)}</td>
+                            <td class="p-2.5 text-right font-bold text-slate-900">${formatTL(it.totalSell)}</td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+
+            const activeFee = previewOverrideRecord ? (previewOverrideRecord.lateFeeAmount || 0) : lateFee;
+            const grandTotal = subtotal + activeFee;
+            document.getElementById('doc-subtotal').innerText = formatTL(subtotal);
+            document.getElementById('doc-late-fee').innerText = `+${formatTL(activeFee)}`;
+            document.getElementById('doc-grand-total').innerText = formatTL(grandTotal);
+
+            const custObj = getSelectedCustomerObj();
+            const prevBal = previewOverrideRecord ? (previewOverrideRecord.prevBalance || 0) : (custObj ? (custObj.balance || 0) : 0);
+            const addedToBal = status.includes('Vadeli') ? grandTotal : 0;
+            document.getElementById('doc-prev-balance').innerText = formatTL(prevBal);
+            document.getElementById('doc-current-invoice-add').innerText = status.includes('Vadeli') ? `+${formatTL(grandTotal)}` : '0,00 ₺ (Peşin)';
+            document.getElementById('doc-new-balance').innerText = formatTL(prevBal + addedToBal);
+        }
+
+        window.archiveCurrentInvoice = function() {
+            if (!savedInvoiceItems || savedInvoiceItems.length === 0) {
+                showToast('Sepette ürün yok.');
+                return;
+            }
+            const custName = document.getElementById('invoice-customer-name').value.trim() || 'Genel Müşteri';
+            const status = document.getElementById('invoice-payment-status').value;
+            const saleDateIso = document.getElementById('invoice-sale-date').value || getTodayIso();
+            const lateFee = calculateSaleVadeFee(status, saleDateIso);
+            const subtotal = savedInvoiceItems.reduce((sum, it) => sum + it.totalSell, 0);
+            const totalAmount = subtotal + lateFee;
+            const totalProfit = savedInvoiceItems.reduce((sum, it) => sum + (it.totalProfit || 0), 0) + lateFee;
+
+            let custObj = getSelectedCustomerObj();
+            if (!custObj && custName !== 'Genel Müşteri') {
+                custObj = { id: Date.now() + 1, name: custName, phone: '', balance: 0, transactions: [] };
+                customerAccounts.unshift(custObj);
+            }
+
+            const prevBalance = custObj ? (custObj.balance || 0) : 0;
+            if (custObj && status.includes('Vadeli')) {
+                custObj.balance = prevBalance + totalAmount;
+                custObj.transactions = custObj.transactions || [];
+                custObj.transactions.unshift({
+                    date: new Date(saleDateIso + 'T00:00:00').toLocaleDateString('tr-TR'),
+                    type: 'Vadeli Satış Faturası',
+                    amount: totalAmount,
+                    note: `${savedInvoiceItems.length} kalem ürün`
+                });
+            }
+
+            savedInvoiceItems.forEach(soldItem => {
+                const stockMatch = stockItems.find(st => (soldItem.stockId && st.id === soldItem.stockId) || st.name.toLowerCase().trim() === soldItem.name.toLowerCase().trim());
+                if (stockMatch) stockMatch.qty = Math.max(0, stockMatch.qty - soldItem.qty);
+            });
+
+            archivedInvoices.unshift({
+                id: Date.now(),
+                customerId: custObj ? custObj.id : null,
+                customer: custName,
+                status,
+                saleDateIso,
+                date: new Date(saleDateIso + 'T00:00:00').toLocaleDateString('tr-TR'),
+                time: new Date().toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }),
+                items: JSON.parse(JSON.stringify(savedInvoiceItems)),
+                subtotalAmount: subtotal,
+                lateFeeApplied: lateFee > 0,
+                lateFeeAmount: lateFee,
+                totalAmount,
+                totalProfit,
+                prevBalance,
+                paid: status.includes('Peşin')
+            });
+
+            savedInvoiceItems = [];
+            window.renderInvoiceList();
+            saveCloudData();
+            window.updateStockStats();
+            window.updateCustomerStats();
+            window.updateArchiveStats();
+            window.closeInvoiceModal();
+            showToast('Satış onaylandı ve kalıcı hafızaya kaydedildi!');
+            window.switchMainView('records');
+        }
+
+        window.updateArchiveStats = function() {
+            const navBadge = document.getElementById('nav-records-count');
+            if (navBadge) navBadge.innerText = archivedInvoices.length;
+            document.getElementById('stat-total-invoices').innerText = `${archivedInvoices.length} Adet`;
+            document.getElementById('stat-total-sales').innerText = formatTL(archivedInvoices.reduce((sum, r) => sum + r.totalAmount, 0));
+            document.getElementById('stat-total-profits').innerText = formatTL(archivedInvoices.reduce((sum, r) => sum + r.totalProfit, 0));
+        }
+
+        window.renderSavedRecords = function() {
+            window.updateArchiveStats();
+            const container = document.getElementById('saved-records-container');
+            if (!container) return;
+            const search = (document.getElementById('record-search-input')?.value || '').toLowerCase().trim();
+            const filtered = archivedInvoices.filter(rec => !search || rec.customer.toLowerCase().includes(search));
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="text-center py-10 text-slate-400 text-sm">Kayıtlı fatura yok.</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(rec => `
+                <div class="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div class="space-y-1">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="font-extrabold text-emerald-950 text-sm">${rec.customer}</span>
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold ${rec.status.includes('Vadeli') ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'}">${rec.status}</span>
+                            <span class="text-[11px] text-slate-400">${rec.date}</span>
+                        </div>
+                        <p class="text-xs text-slate-600">${rec.items.map(it => `${it.name} (${it.qty} Adet)`).join(', ')}</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="text-right">
+                            <span class="text-sm font-black text-slate-900 block">${formatTL(rec.totalAmount)}</span>
+                            <span class="text-[11px] font-bold text-emerald-600">Kâr: ${formatTL(rec.totalProfit)}</span>
+                        </div>
+                        <button type="button" onclick="viewArchivedInvoice(${rec.id})" class="px-3 py-2 bg-emerald-950 text-white text-xs font-bold rounded-xl">Fatura Aç</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        window.viewArchivedInvoice = function(id) {
+            const rec = archivedInvoices.find(r => r.id === id);
+            if (rec) window.openInvoiceModal(rec);
+        }
+
+        window.downloadAndSharePdf = async function() {
+            try {
+                showToast('PDF hazırlanıyor...');
+                window.updateInvoicePreview();
+                await new Promise(r => setTimeout(r, 150));
+                const element = document.getElementById('printable-invoice');
+                const opt = { margin: 8, filename: 'HasatTarim-Fatura.pdf', html2canvas: { scale: 2, useCORS: true }, jsPDF: { unit: 'mm', format: 'a4' } };
+                const pdfBlob = await html2pdf().set(opt).from(element).outputPdf('blob');
+                const pdfFile = new File([pdfBlob], 'HasatTarim-Fatura.pdf', { type: 'application/pdf' });
+                if (navigator.canShare && navigator.canShare({ files: [pdfFile] })) {
+                    await navigator.share({ files: [pdfFile], title: 'Hasat Tarım Fatura' });
+                    return;
+                }
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(pdfBlob);
+                a.download = 'HasatTarim-Fatura.pdf';
+                a.click();
+                showToast('PDF indirildi!');
+            } catch (e) {
+                window.print();
+            }
+        }
+
+        window.shareInvoiceAsImage = async function() {
+            try {
+                showToast('Resim hazırlanıyor...');
+                const wasHidden = document.getElementById('invoice-modal').classList.contains('hidden');
+                window.updateInvoicePreview();
+                if (wasHidden) document.getElementById('invoice-modal').classList.remove('hidden');
+                await new Promise(r => setTimeout(r, 150));
+                const canvas = await html2canvas(document.getElementById('printable-invoice'), { scale: 2, backgroundColor: '#ffffff', useCORS: true });
+                canvas.toBlob(async (blob) => {
+                    const file = new File([blob], 'HasatTarim.png', { type: 'image/png' });
+                    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                        await navigator.share({ files: [file], title: 'Hasat Tarım' });
+                        return;
+                    }
+                    const a = document.createElement('a');
+                    a.download = 'HasatTarim.png';
+                    a.href = canvas.toDataURL('image/png');
+                    a.click();
+                    showToast('Resim indirildi!');
+                }, 'image/png');
+            } catch (e) {
+                showToast('Hata oluştu.');
+            }
+        }
+
+        window.openMobileAppModal = function() { document.getElementById('mobile-app-modal').classList.remove('hidden'); }
+        window.closeMobileAppModal = function() { document.getElementById('mobile-app-modal').classList.add('hidden'); }
+
+        function getCleanStandaloneHtml() {
+            const clone = document.documentElement.cloneNode(true);
+            ['mobile-app-modal', 'invoice-modal', 'toast', 'splash-screen'].forEach(id => {
+                const el = clone.querySelector('#' + id);
+                if (el) el.classList.add('hidden');
+            });
+            return "<!DOCTYPE html>\n" + clone.outerHTML;
+        }
+
+        window.downloadStandaloneAppHtml = function() {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([getCleanStandaloneHtml()], { type: 'text/html;charset=utf-8' }));
+            a.download = 'index.html';
+            a.click();
+            showToast('İndiriliyor...');
+        }
+
+        window.openPureAppWindow = function() {
+            window.open(URL.createObjectURL(new Blob([getCleanStandaloneHtml()], { type: 'text/html;charset=utf-8' })), '_blank');
+        }
+
+        window.copyStandaloneAppCode = function() {
+            const ta = document.createElement('textarea');
+            ta.value = getCleanStandaloneHtml();
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+            showToast('Kod kopyalandı!');
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            initCloudDatabase();
+            window.calculateCostProfit();
+
+            const dateInput = document.getElementById('invoice-sale-date');
+            if (dateInput) dateInput.value = getTodayIso();
+            const stockDateInput = document.getElementById('st-purchase-date');
+            if (stockDateInput) stockDateInput.value = getTodayIso();
+
+            // Kesin Çalışan Açılış Animasyon Sekansı
+            setTimeout(() => {
+                const stage1 = document.getElementById('splash-stage-1');
+                const stage2 = document.getElementById('splash-stage-2');
+                if (stage1 && stage2) {
+                    stage1.style.opacity = '0';
+                    stage1.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        stage1.classList.add('hidden');
+                        stage2.classList.remove('hidden');
+                        // reflow
+                        stage2.offsetHeight;
+                        stage2.style.opacity = '1';
+                    }, 400);
+                }
+            }, 1800);
+
+            setTimeout(() => {
+                const splash = document.getElementById('splash-screen');
+                if (splash) {
+                    splash.style.transition = 'opacity 0.7s ease';
+                    splash.style.opacity = '0';
+                    setTimeout(() => {
+                        splash.remove();
+                    }, 700);
+                }
+            }, 4000);
+        });
+    </script>
+
+<iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" tabindex="-1" vspace="0" width="100%" aria-hidden="true" id="I0_1794602360212" name="I0_1794602360212" src="https://bard-frontend.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY&amp;appName=%5BDEFAULT%5D&amp;v=11.6.1&amp;eid=p&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.tr.q31lGk-SS6A.O%2Fd%3D1%2Frs%3DAHpOoo8K8XyD40Td94PmQJ4CzaCJL9ewig%2Fm%3D__features__#id=I0_1794602360212&amp;_gfid=I0_1794602360212&amp;parent=blob%3A%2F%2F&amp;pfname=&amp;rpctoken=33671850" style="position: absolute; top: -100px; width: 1px; height: 1px;"></iframe></body></html>
